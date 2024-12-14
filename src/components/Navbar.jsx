@@ -1,4 +1,4 @@
-import { FaRegStar, FaSearch } from "react-icons/fa";
+import { FaRegStar } from "react-icons/fa";
 import { FiShoppingBag } from "react-icons/fi";
 import { GoPerson } from "react-icons/go";
 import { MdOutlineDarkMode } from "react-icons/md";
