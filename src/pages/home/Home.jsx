@@ -1,3 +1,4 @@
+import Arrivals from "./Arrivals";
 import Category from "./Category";
 import Featured from "./Featured";
 import Slider from "./Slider";
@@ -9,6 +10,7 @@ const Home = () => {
            <Slider></Slider>
            <Featured></Featured>
            <Category></Category>
+           <Arrivals></Arrivals>
         </div>
     );
 };
