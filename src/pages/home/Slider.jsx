@@ -1,84 +1,143 @@
+
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { Autoplay,  Navigation } from 'swiper/modules';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+
 import { Fade } from 'react-awesome-reveal';
 
-AOS.init();
-
 const Slider = () => {
-    return (
-        <div>
-        <Swiper
+  return (
+    <div>
+      <Swiper
         spaceBetween={30}
         centeredSlides={true}
         autoplay={{
-          delay: 3500,
+          delay: 2500,
           disableOnInteraction: false,
         }}
        
-        // navigation={true}
+       
         modules={[Autoplay, Navigation]}
         className="mySwiper"
       >
+        {/* Slide 1 */}
         <SwiperSlide>
-            <div className='bg-gray-200 bg-cover w-full h-[70vh] relative'>
-            <img src="https://i.ibb.co.com/3MdL35y/post-05-370x450.jpg" className='absolute right-56 h-[70vh]' alt="" />
-            <Fade>
-            <div className='flex flex-col justify-start items-start gap-6 absolute left-5 bottom-32'
-            data-aos="fade-down"
-            data-aos-easing="linear"
-            data-aos-duration="500"
+          <div
+            style={{
+              position: 'relative',
+              textAlign: 'right',
+              color: 'white',
+              background: 'linear-gradient(0.25turn, #3f87a6, #ebf8e1, #FFE3B2)',
+              width: '100%',
+            }}
+          >
+            <img
+              src="https://i.ibb.co.com/t2HQjzp/about-page-img-3-1536x574.jpg"
+              alt="Slide 1"
+              style={{
+                height: '70vh', // Adjust image height according to viewport height
+                width: '100%',
+                objectFit: 'cover', // Ensure the image covers the whole area
+              }}
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/50 to-transparent"></div>
+            <h2
+              style={{
+                position: 'absolute',
+                top: '50%',
+                left: '50%',
+                transform: 'translate(-50%, -50%)',
+                color: 'white',
+                fontSize: '4vw', // Relative font size for responsiveness
+                fontWeight: 'bold',
+              }}
             >
-                <p className='text-3xl font-bold uppercase text-[#065f46]'>New collection</p>
-                <h1 className='text-6xl font-bold text-black'>Get The Skin
-                    <br /> You Want To Feel</h1>
-                </div>
-            </Fade>
+             <Fade> INTENSE LIPS</Fade>
+            </h2>
+            
+          </div>
+        </SwiperSlide>
 
-            </div>
-        </SwiperSlide>
+        {/* Slide 2 */}
         <SwiperSlide>
-            <div className='bg-gray-200 bg-cover w-full h-[70vh] relative'>
-                <img src="https://i.ibb.co.com/mGsFZdM/other-image-05.jpg" className='absolute right-16 h-[70vh]' alt="" />
-                <Fade>
-                <div className='flex flex-col justify-start items-start gap-6 absolute left-5 bottom-32'
-                data-aos="fade-down"
-                data-aos-easing="linear"
-                data-aos-duration="500"
-                
-                >
-                <p className='text-3xl font-bold uppercase text-[#065f46]'>the pearl glow</p>
-                <h1 className='text-6xl font-bold text-black'>Let's Introduce The 
-                    <br /> Shiny Skin</h1>
-                </div>
-                </Fade>
-            </div>
+          <div
+            style={{
+              position: 'relative',
+              textAlign: 'right',
+              color: 'white',
+              background: 'linear-gradient(0.25turn, #3f87a6, #ebf8e1, #8B8383)',
+              width: '100%',
+            }}
+          >
+            <img
+              src="https://i.ibb.co.com/6t1rXK5/port-1-gallery-img-3-2.jpg"
+              alt="Slide 2"
+              style={{
+                height: '70vh',
+                width: '100%',
+                objectFit: 'cover',
+              }}
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/50 to-transparent"></div>
+            <h2
+              style={{
+                position: 'absolute',
+                top: '50%',
+                left: '50%',
+                transform: 'translate(-50%, -50%)',
+                color: 'white',
+                fontSize: '4vw',
+                fontWeight: 'bold',
+              }}
+            >
+              <Fade>DEWY SHADES</Fade>
+            </h2>
+            
+          </div>
         </SwiperSlide>
+
+        {/* Slide 3 */}
         <SwiperSlide>
-            <div className='bg-gray-300 bg-cover w-full h-[70vh] relative' >
-                <img src="https://i.ibb.co.com/yPWvvfd/other-image-04.jpg" className='absolute right-56 h-[70vh]' alt="" />
-                <Fade>
-                <div className='flex flex-col justify-start items-start gap-6 absolute left-5 bottom-32'
-                data-aos="fade-down"
-                data-aos-easing="linear"
-                data-aos-duration="500"
-                
-                >
-                <p className='text-3xl font-bold uppercase text-[#065f46]'>Get the glow</p>
-                <h1 className='text-6xl font-bold text-black'>Love Your Skin
-                    <br /> Naturally</h1>
-                </div>
-                </Fade>
-            </div>
+          <div
+            style={{
+              position: 'relative',
+              textAlign: 'right',
+              color: 'white',
+              background: 'linear-gradient(0.25turn, #3f87a6, #ebf8e1, #FF8686)',
+              width: '100%',
+            }}
+          >
+            <img
+              src="https://i.ibb.co.com/v1L96Xs/port-featured-img-013.jpg"
+              alt="Slide 3"
+              style={{
+                height: '70vh',
+                width: '100%',
+                objectFit: 'cover',
+              }}
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/50 to-transparent"></div>
+            <h2
+              style={{
+                position: 'absolute',
+                top: '50%',
+                left: '50%',
+                transform: 'translate(-50%, -50%)',
+                color: 'white',
+                fontSize: '4vw',
+                fontWeight: 'bold',
+              }}
+            >
+              <Fade>FRESH LOOKS</Fade>
+            </h2>
+           
+          </div>
         </SwiperSlide>
-        
       </Swiper>
-      </div>
-    );
+    </div>
+  );
 };
 
 export default Slider;
