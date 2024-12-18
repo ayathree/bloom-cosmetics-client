@@ -9,7 +9,7 @@ const Category = () => {
                 <img src="https://i.ibb.co.com/Gk5Kzdh/image-box-01.png" alt=""  />
                 </div>
                 <p className="text-center mb-5 font-semibold text-4xl uppercase ">Shop by Categories</p>
-                <p className="text-center mb-16 text-lg">Because You Need Time for Yourself. Blend Beauty in You</p>
+                <p className="text-center mb-16 text-lg">Because You Need Time for Yourself. <br /> Blend Beauty in You</p>
             </div>
             <div className="grid lg:grid-cols-3 grid-cols-1 md:grid-cols-2 grid-rows-4 lg:grid-rows-2 md:grid-rows-3 justify-center items-center gap-4">
                 <div className=" lg:row-span-2 relative overflow-hidden group">

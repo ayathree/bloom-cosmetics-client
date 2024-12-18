@@ -2,6 +2,7 @@ import Arrivals from "./Arrivals";
 import Category from "./Category";
 import Featured from "./Featured";
 import Slider from "./Slider";
+import Subscription from "./Subscription";
 
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
            <Featured></Featured>
            <Category></Category>
            <Arrivals></Arrivals>
+           <Subscription></Subscription>
         </div>
     );
 };
