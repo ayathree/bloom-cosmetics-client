@@ -39,15 +39,20 @@ const Arrivals = () => {
           },
         }}
       >
-        <SwiperSlide><div className='bg-slate-100 h-[50vh] w-full relative'>
-          <div className='absolute flex flex-row justify-center items-center gap-4 bottom-10 left-14 '>
-          <FiShoppingBag className='text-2xl' />
-          <GrView className='text-2xl' />
-          <FaRegStar className='text-2xl' />
+        <SwiperSlide><div className='bg-slate-100 h-[50vh] w-full relative group'>
+          <div className='absolute flex flex-row justify-center items-center gap-4 bottom-10 left-10 right-10 opacity-0 group-hover:opacity-100 group-hover:bottom-12 transition-all duration-500 ease-in-out  '>
+          <button className='btn-circle bg-[#047857] flex justify-center items-center hover:bg-black text-white'><FiShoppingBag className='text-2xl ' /></button>
+          <button className='btn-circle bg-[#047857] flex justify-center items-center hover:bg-black text-white'><GrView className='text-2xl' /></button>
+         <button className='btn-circle bg-[#047857] flex justify-center items-center hover:bg-black text-white'> <FaRegStar className='text-2xl' /></button>
           </div>
           
           </div></SwiperSlide>
-        <SwiperSlide><div className='bg-slate-100 h-[50vh] w-full'></div></SwiperSlide>
+        <SwiperSlide><div className='bg-slate-100 h-[50vh] w-full relative group'>
+        <div className='absolute flex flex-row justify-center items-center gap-4 bottom-10 left-10 right-10 opacity-0 group-hover:opacity-100 group-hover:bottom-12 transition-all duration-500 ease-in-out  '>
+        <button className='btn-circle bg-[#047857] flex justify-center items-center hover:bg-black text-white'><FiShoppingBag className='text-2xl ' /></button>
+          <button className='btn-circle bg-[#047857] flex justify-center items-center hover:bg-black text-white'><GrView className='text-2xl' /></button>
+         <button className='btn-circle bg-[#047857] flex justify-center items-center hover:bg-black text-white'> <FaRegStar className='text-2xl' /></button>
+          </div></div></SwiperSlide>
         <SwiperSlide><div className='bg-slate-100 h-[50vh] w-full'></div></SwiperSlide>
         <SwiperSlide><div className='bg-slate-100 h-[50vh] w-full'></div></SwiperSlide>
         <SwiperSlide><div className='bg-slate-100 h-[50vh] w-full'></div></SwiperSlide>

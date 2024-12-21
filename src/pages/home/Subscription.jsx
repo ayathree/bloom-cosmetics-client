@@ -7,12 +7,12 @@ const Subscription = () => {
             <div className="join flex justify-center items-center mb-10">
   
     <div >
-      <input className="input input-bordered join-item w-96" name="email" placeholder="Enter your email" />
+      <input className="input input-bordered join-item lg:w-96" name="email" placeholder="Enter your email" />
     </div>
   
   <div className="indicator">
     
-    <button className="btn join-item w-32 bg-black text-white hover:bg-[#047857] ">Subscribe</button>
+    <button className="btn join-item lg:w-32 w-full bg-black text-white hover:bg-[#047857] ">Subscribe</button>
   </div>
 </div>
 <div className="flex flex-row justify-center items-center gap-3 mb-32">

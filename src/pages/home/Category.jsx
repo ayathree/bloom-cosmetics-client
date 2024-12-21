@@ -15,22 +15,22 @@ const Category = () => {
                 <div className=" lg:row-span-2 relative overflow-hidden group">
                     <img src="https://i.ibb.co.com/rkQNHCr/Home2-blog-single-img-1.jpg" className="lg:w-full lg:h-[105vh] object-cover h-[450px] transform transition-transform duration-300 hover:scale-110" alt="" />
                     <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-transparent via-white/30 to-transparent opacity-0 group-hover:opacity-100 group-hover:translate-x-0 translate-x-full transition-all duration-500"></div>
-                    <button className="text-black bg-white px-6 py-2  bottom-20 lg:left-32 left-40 absolute font-bold hover:bg-black hover:text-white">MakeUps</button>
+                    <button className="text-black bg-white px-6 py-2 border-black border-2 bottom-12 left-24 right-24 absolute font-bold hover:bg-black hover:text-white">MakeUps</button>
                 </div>
                 <div className="relative overflow-hidden group">
                     <img src="https://i.ibb.co.com/VMt0wN6/banner-18.jpg" className="lg:h-[50vh] lg:w-full object-cover h-[450px] transform transition-transform duration-300 hover:scale-110" alt="" />
                     <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-transparent via-white/30 to-transparent opacity-0 group-hover:opacity-100 group-hover:translate-x-0 translate-x-full transition-all duration-500"></div>
-                    <button className="text-black bg-white px-6 py-2  bottom-20 left-40 absolute font-bold hover:bg-black hover:text-white">SkinCare</button>
+                    <button className="text-black bg-white px-6 py-2 border-black border-2 bottom-12 left-24 right-24 absolute font-bold hover:bg-black hover:text-white">SkinCare</button>
                 </div>
                 <div className="relative overflow-hidden group">
                     <img src="https://i.ibb.co.com/Jr8pnXj/banner-15.jpg" className="lg:h-[50vh] lg:w-full object-cover h-[450px] transform transition-transform duration-300 hover:scale-110" alt="" />
                     <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-transparent via-white/30 to-transparent opacity-0 group-hover:opacity-100 group-hover:translate-x-0 translate-x-full transition-all duration-500"></div>
-                    <button className="text-black bg-white px-6 py-2  bottom-20 left-40 absolute font-bold hover:bg-black hover:text-white">BodyCare</button>
+                    <button className="text-black bg-white px-6 py-2 border-black border-2 bottom-12 left-24 right-24 absolute font-bold hover:bg-black hover:text-white">BodyCare</button>
                 </div>
                 <div className="lg:col-span-2 relative overflow-hidden group">
                     <img src="https://i.ibb.co.com/DMGKZk5/banner-17.jpg" className="lg:h-[50vh] lg:w-full object-cover h-[450px] transform transition-transform duration-300 hover:scale-110" alt="" />
                     <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-transparent via-white/30 to-transparent opacity-0 group-hover:opacity-100 group-hover:translate-x-0 translate-x-full transition-all duration-500"></div>
-                    <button className="text-black bg-white px-6 py-2  bottom-16 lg:left-96 left-40 absolute font-bold hover:bg-black hover:text-white">HairCare</button>
+                    <button className="text-black bg-white px-6 py-2 border-black border-2  bottom-12 lg:left-72 lg:right-72  left-24 right-24 absolute font-bold hover:bg-black hover:text-white">HairCare</button>
                 </div>
             </div>
             
