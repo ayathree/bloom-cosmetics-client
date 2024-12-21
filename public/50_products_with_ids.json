@@ -1,0 +1,1082 @@
+[
+    {
+        "Product Name": "Product 1",
+        "Brand": "Brand 1",
+        "Category": "makeup",
+        "Feature": "mascara",
+        "NewArrival": "yes",
+        "Ingredients": "Ingredient 1, Ingredient 2, Ingredient 3",
+        "Price": "$10.0",
+        "Description": "This is a description for Product 1, providing usage instructions and benefits.",
+        "High-resolution Images": "https://i.ibb.co.com/7Jj3fN0/shop-test-img-01.jpg",
+        "Customer Reviews and Ratings": {
+            "Reviews": [
+                "Review 1 for Product 1",
+                "Review 2 for Product 1",
+                "Review 3 for Product 1"
+            ],
+            "Ratings": 3.0
+        },
+        "ID": 1
+    },
+    {
+        "Product Name": "Product 2",
+        "Brand": "Brand 2",
+        "Category": "makeup",
+        "Feature": "eyeshadow",
+        "NewArrival": "no",
+        "Ingredients": "Ingredient 2, Ingredient 3, Ingredient 4",
+        "Price": "$11.5",
+        "Description": "This is a description for Product 2, providing usage instructions and benefits.",
+        "High-resolution Images": "https://i.ibb.co.com/sbrP2s5/shop-img-53.jpg",
+        "Customer Reviews and Ratings": {
+            "Reviews": [
+                "Review 1 for Product 2",
+                "Review 2 for Product 2",
+                "Review 3 for Product 2"
+            ],
+            "Ratings": 3.5
+        },
+        "ID": 2
+    },
+    {
+        "Product Name": "Product 3",
+        "Brand": "Brand 3",
+        "Category": "makeup",
+        "Feature": "lipstick",
+        "NewArrival": "yes",
+        "Ingredients": "Ingredient 3, Ingredient 4, Ingredient 5",
+        "Price": "$13.0",
+        "Description": "This is a description for Product 3, providing usage instructions and benefits.",
+        "High-resolution Images": "https://i.ibb.co.com/7yrwrQt/shop-img-20.jpg",
+        "Customer Reviews and Ratings": {
+            "Reviews": [
+                "Review 1 for Product 3",
+                "Review 2 for Product 3",
+                "Review 3 for Product 3"
+            ],
+            "Ratings": 4.0
+        },
+        "ID": 3
+    },
+    {
+        "Product Name": "Product 4",
+        "Brand": "Brand 4",
+        "Category": "makeup",
+        "Feature": "bodymist",
+        "NewArrival": "no",
+        "Ingredients": "Ingredient 4, Ingredient 5, Ingredient 6",
+        "Price": "$14.5",
+        "Description": "This is a description for Product 4, providing usage instructions and benefits.",
+        "High-resolution Images": "https://i.ibb.co.com/RBTrJNQ/112047178527-OF-F.jpg",
+        "Customer Reviews and Ratings": {
+            "Reviews": [
+                "Review 1 for Product 4",
+                "Review 2 for Product 4",
+                "Review 3 for Product 4"
+            ],
+            "Ratings": 3.0
+        },
+        "ID": 4
+    },
+    {
+        "Product Name": "Product 5",
+        "Brand": "Brand 5",
+        "Category": "makeup",
+        "Feature": "makeup kit",
+        "NewArrival": "yes",
+        "Ingredients": "Ingredient 5, Ingredient 6, Ingredient 7",
+        "Price": "$16.0",
+        "Description": "This is a description for Product 5, providing usage instructions and benefits.",
+        "High-resolution Images": "https://i.ibb.co.com/QJr7wjj/shop-list-59-600x434.jpg",
+        "Customer Reviews and Ratings": {
+            "Reviews": [
+                "Review 1 for Product 5",
+                "Review 2 for Product 5",
+                "Review 3 for Product 5"
+            ],
+            "Ratings": 3.5
+        },
+        "ID": 5
+    },
+    {
+        "Product Name": "Product 6",
+        "Brand": "Brand 6",
+        "Category": "makeup",
+        "Feature": "foundation",
+        "NewArrival": "no",
+        "Ingredients": "Ingredient 6, Ingredient 7, Ingredient 8",
+        "Price": "$17.5",
+        "Description": "This is a description for Product 6, providing usage instructions and benefits.",
+        "High-resolution Images": "https://i.ibb.co.com/mhr4ntN/shop-img-019.jpg",
+        "Customer Reviews and Ratings": {
+            "Reviews": [
+                "Review 1 for Product 6",
+                "Review 2 for Product 6",
+                "Review 3 for Product 6"
+            ],
+            "Ratings": 4.0
+        },
+        "ID": 6
+    },
+    {
+        "Product Name": "Product 7",
+        "Brand": "Brand 7",
+        "Category": "skincare",
+        "Feature": "non-cosmetics",
+        "NewArrival": "yes",
+        "Ingredients": "Ingredient 7, Ingredient 8, Ingredient 9",
+        "Price": "$19.0",
+        "Description": "This is a description for Product 7, providing usage instructions and benefits.",
+        "High-resolution Images": "https://i.ibb.co.com/bPJ0fKL/product-06-330x440.jpg",
+        "Customer Reviews and Ratings": {
+            "Reviews": [
+                "Review 1 for Product 7",
+                "Review 2 for Product 7",
+                "Review 3 for Product 7"
+            ],
+            "Ratings": 3.0
+        },
+        "ID": 7
+    },
+    {
+        "Product Name": "Product 8",
+        "Brand": "Brand 8",
+        "Category": "bodycare",
+        "Feature": "non-cosmetics",
+        "NewArrival": "no",
+        "Ingredients": "Ingredient 8, Ingredient 9, Ingredient 10",
+        "Price": "$20.5",
+        "Description": "This is a description for Product 8, providing usage instructions and benefits.",
+        "High-resolution Images": "https://i.ibb.co.com/dJgXpsN/product-12-330x440.jpg",
+        "Customer Reviews and Ratings": {
+            "Reviews": [
+                "Review 1 for Product 8",
+                "Review 2 for Product 8",
+                "Review 3 for Product 8"
+            ],
+            "Ratings": 3.5
+        },
+        "ID": 8
+    },
+    {
+        "Product Name": "Product 9",
+        "Brand": "Brand 9",
+        "Category": "haircare",
+        "Feature": "non-cosmetics",
+        "NewArrival": "yes",
+        "Ingredients": "Ingredient 9, Ingredient 10, Ingredient 11",
+        "Price": "$22.0",
+        "Description": "This is a description for Product 9, providing usage instructions and benefits.",
+        "High-resolution Images": "https://i.ibb.co.com/9vfb4pK/product-08-330x440.jpg",
+        "Customer Reviews and Ratings": {
+            "Reviews": [
+                "Review 1 for Product 9",
+                "Review 2 for Product 9",
+                "Review 3 for Product 9"
+            ],
+            "Ratings": 4.0
+        },
+        "ID": 9
+    },
+    {
+        "Product Name": "Product 10",
+        "Brand": "Brand 10",
+        "Category": "makeup",
+        "Feature": "mascara",
+        "NewArrival": "no",
+        "Ingredients": "Ingredient 10, Ingredient 11, Ingredient 12",
+        "Price": "$23.5",
+        "Description": "This is a description for Product 10, providing usage instructions and benefits.",
+        "High-resolution Images": "https://i.ibb.co.com/7Jj3fN0/shop-test-img-01.jpg",
+        "Customer Reviews and Ratings": {
+            "Reviews": [
+                "Review 1 for Product 10",
+                "Review 2 for Product 10",
+                "Review 3 for Product 10"
+            ],
+            "Ratings": 3.0
+        },
+        "ID": 10
+    },
+    {
+        "Product Name": "Product 11",
+        "Brand": "Brand 11",
+        "Category": "makeup",
+        "Feature": "eyeshadow",
+        "NewArrival": "yes",
+        "Ingredients": "Ingredient 11, Ingredient 12, Ingredient 13",
+        "Price": "$25.0",
+        "Description": "This is a description for Product 11, providing usage instructions and benefits.",
+        "High-resolution Images": "https://i.ibb.co.com/sbrP2s5/shop-img-53.jpg",
+        "Customer Reviews and Ratings": {
+            "Reviews": [
+                "Review 1 for Product 11",
+                "Review 2 for Product 11",
+                "Review 3 for Product 11"
+            ],
+            "Ratings": 3.5
+        },
+        "ID": 11
+    },
+    {
+        "Product Name": "Product 12",
+        "Brand": "Brand 12",
+        "Category": "makeup",
+        "Feature": "lipstick",
+        "NewArrival": "no",
+        "Ingredients": "Ingredient 12, Ingredient 13, Ingredient 14",
+        "Price": "$26.5",
+        "Description": "This is a description for Product 12, providing usage instructions and benefits.",
+        "High-resolution Images": "https://i.ibb.co.com/7yrwrQt/shop-img-20.jpg",
+        "Customer Reviews and Ratings": {
+            "Reviews": [
+                "Review 1 for Product 12",
+                "Review 2 for Product 12",
+                "Review 3 for Product 12"
+            ],
+            "Ratings": 4.0
+        },
+        "ID": 12
+    },
+    {
+        "Product Name": "Product 13",
+        "Brand": "Brand 13",
+        "Category": "makeup",
+        "Feature": "bodymist",
+        "NewArrival": "yes",
+        "Ingredients": "Ingredient 13, Ingredient 14, Ingredient 15",
+        "Price": "$28.0",
+        "Description": "This is a description for Product 13, providing usage instructions and benefits.",
+        "High-resolution Images": "https://i.ibb.co.com/RBTrJNQ/112047178527-OF-F.jpg",
+        "Customer Reviews and Ratings": {
+            "Reviews": [
+                "Review 1 for Product 13",
+                "Review 2 for Product 13",
+                "Review 3 for Product 13"
+            ],
+            "Ratings": 3.0
+        },
+        "ID": 13
+    },
+    {
+        "Product Name": "Product 14",
+        "Brand": "Brand 14",
+        "Category": "makeup",
+        "Feature": "makeup kit",
+        "NewArrival": "no",
+        "Ingredients": "Ingredient 14, Ingredient 15, Ingredient 16",
+        "Price": "$29.5",
+        "Description": "This is a description for Product 14, providing usage instructions and benefits.",
+        "High-resolution Images": "https://i.ibb.co.com/QJr7wjj/shop-list-59-600x434.jpg",
+        "Customer Reviews and Ratings": {
+            "Reviews": [
+                "Review 1 for Product 14",
+                "Review 2 for Product 14",
+                "Review 3 for Product 14"
+            ],
+            "Ratings": 3.5
+        },
+        "ID": 14
+    },
+    {
+        "Product Name": "Product 15",
+        "Brand": "Brand 15",
+        "Category": "makeup",
+        "Feature": "foundation",
+        "NewArrival": "yes",
+        "Ingredients": "Ingredient 15, Ingredient 16, Ingredient 17",
+        "Price": "$31.0",
+        "Description": "This is a description for Product 15, providing usage instructions and benefits.",
+        "High-resolution Images": "https://i.ibb.co.com/mhr4ntN/shop-img-019.jpg",
+        "Customer Reviews and Ratings": {
+            "Reviews": [
+                "Review 1 for Product 15",
+                "Review 2 for Product 15",
+                "Review 3 for Product 15"
+            ],
+            "Ratings": 4.0
+        },
+        "ID": 15
+    },
+    {
+        "Product Name": "Product 16",
+        "Brand": "Brand 16",
+        "Category": "skincare",
+        "Feature": "non-cosmetics",
+        "NewArrival": "no",
+        "Ingredients": "Ingredient 16, Ingredient 17, Ingredient 18",
+        "Price": "$32.5",
+        "Description": "This is a description for Product 16, providing usage instructions and benefits.",
+        "High-resolution Images": "https://i.ibb.co.com/bPJ0fKL/product-06-330x440.jpg",
+        "Customer Reviews and Ratings": {
+            "Reviews": [
+                "Review 1 for Product 16",
+                "Review 2 for Product 16",
+                "Review 3 for Product 16"
+            ],
+            "Ratings": 3.0
+        },
+        "ID": 16
+    },
+    {
+        "Product Name": "Product 17",
+        "Brand": "Brand 17",
+        "Category": "bodycare",
+        "Feature": "non-cosmetics",
+        "NewArrival": "yes",
+        "Ingredients": "Ingredient 17, Ingredient 18, Ingredient 19",
+        "Price": "$34.0",
+        "Description": "This is a description for Product 17, providing usage instructions and benefits.",
+        "High-resolution Images": "https://i.ibb.co.com/dJgXpsN/product-12-330x440.jpg",
+        "Customer Reviews and Ratings": {
+            "Reviews": [
+                "Review 1 for Product 17",
+                "Review 2 for Product 17",
+                "Review 3 for Product 17"
+            ],
+            "Ratings": 3.5
+        },
+        "ID": 17
+    },
+    {
+        "Product Name": "Product 18",
+        "Brand": "Brand 18",
+        "Category": "haircare",
+        "Feature": "non-cosmetics",
+        "NewArrival": "no",
+        "Ingredients": "Ingredient 18, Ingredient 19, Ingredient 20",
+        "Price": "$35.5",
+        "Description": "This is a description for Product 18, providing usage instructions and benefits.",
+        "High-resolution Images": "https://i.ibb.co.com/9vfb4pK/product-08-330x440.jpg",
+        "Customer Reviews and Ratings": {
+            "Reviews": [
+                "Review 1 for Product 18",
+                "Review 2 for Product 18",
+                "Review 3 for Product 18"
+            ],
+            "Ratings": 4.0
+        },
+        "ID": 18
+    },
+    {
+        "Product Name": "Product 19",
+        "Brand": "Brand 19",
+        "Category": "makeup",
+        "Feature": "mascara",
+        "NewArrival": "yes",
+        "Ingredients": "Ingredient 19, Ingredient 20, Ingredient 21",
+        "Price": "$37.0",
+        "Description": "This is a description for Product 19, providing usage instructions and benefits.",
+        "High-resolution Images": "https://i.ibb.co.com/7Jj3fN0/shop-test-img-01.jpg",
+        "Customer Reviews and Ratings": {
+            "Reviews": [
+                "Review 1 for Product 19",
+                "Review 2 for Product 19",
+                "Review 3 for Product 19"
+            ],
+            "Ratings": 3.0
+        },
+        "ID": 19
+    },
+    {
+        "Product Name": "Product 20",
+        "Brand": "Brand 20",
+        "Category": "makeup",
+        "Feature": "eyeshadow",
+        "NewArrival": "no",
+        "Ingredients": "Ingredient 20, Ingredient 21, Ingredient 22",
+        "Price": "$38.5",
+        "Description": "This is a description for Product 20, providing usage instructions and benefits.",
+        "High-resolution Images": "https://i.ibb.co.com/sbrP2s5/shop-img-53.jpg",
+        "Customer Reviews and Ratings": {
+            "Reviews": [
+                "Review 1 for Product 20",
+                "Review 2 for Product 20",
+                "Review 3 for Product 20"
+            ],
+            "Ratings": 3.5
+        },
+        "ID": 20
+    },
+    {
+        "Product Name": "Product 21",
+        "Brand": "Brand 21",
+        "Category": "makeup",
+        "Feature": "lipstick",
+        "NewArrival": "yes",
+        "Ingredients": "Ingredient 21, Ingredient 22, Ingredient 23",
+        "Price": "$40.0",
+        "Description": "This is a description for Product 21, providing usage instructions and benefits.",
+        "High-resolution Images": "https://i.ibb.co.com/7yrwrQt/shop-img-20.jpg",
+        "Customer Reviews and Ratings": {
+            "Reviews": [
+                "Review 1 for Product 21",
+                "Review 2 for Product 21",
+                "Review 3 for Product 21"
+            ],
+            "Ratings": 4.0
+        },
+        "ID": 21
+    },
+    {
+        "Product Name": "Product 22",
+        "Brand": "Brand 22",
+        "Category": "makeup",
+        "Feature": "bodymist",
+        "NewArrival": "no",
+        "Ingredients": "Ingredient 22, Ingredient 23, Ingredient 24",
+        "Price": "$41.5",
+        "Description": "This is a description for Product 22, providing usage instructions and benefits.",
+        "High-resolution Images": "https://i.ibb.co.com/RBTrJNQ/112047178527-OF-F.jpg",
+        "Customer Reviews and Ratings": {
+            "Reviews": [
+                "Review 1 for Product 22",
+                "Review 2 for Product 22",
+                "Review 3 for Product 22"
+            ],
+            "Ratings": 3.0
+        },
+        "ID": 22
+    },
+    {
+        "Product Name": "Product 23",
+        "Brand": "Brand 23",
+        "Category": "makeup",
+        "Feature": "makeup kit",
+        "NewArrival": "yes",
+        "Ingredients": "Ingredient 23, Ingredient 24, Ingredient 25",
+        "Price": "$43.0",
+        "Description": "This is a description for Product 23, providing usage instructions and benefits.",
+        "High-resolution Images": "https://i.ibb.co.com/QJr7wjj/shop-list-59-600x434.jpg",
+        "Customer Reviews and Ratings": {
+            "Reviews": [
+                "Review 1 for Product 23",
+                "Review 2 for Product 23",
+                "Review 3 for Product 23"
+            ],
+            "Ratings": 3.5
+        },
+        "ID": 23
+    },
+    {
+        "Product Name": "Product 24",
+        "Brand": "Brand 24",
+        "Category": "makeup",
+        "Feature": "foundation",
+        "NewArrival": "no",
+        "Ingredients": "Ingredient 24, Ingredient 25, Ingredient 26",
+        "Price": "$44.5",
+        "Description": "This is a description for Product 24, providing usage instructions and benefits.",
+        "High-resolution Images": "https://i.ibb.co.com/mhr4ntN/shop-img-019.jpg",
+        "Customer Reviews and Ratings": {
+            "Reviews": [
+                "Review 1 for Product 24",
+                "Review 2 for Product 24",
+                "Review 3 for Product 24"
+            ],
+            "Ratings": 4.0
+        },
+        "ID": 24
+    },
+    {
+        "Product Name": "Product 25",
+        "Brand": "Brand 25",
+        "Category": "skincare",
+        "Feature": "non-cosmetics",
+        "NewArrival": "yes",
+        "Ingredients": "Ingredient 25, Ingredient 26, Ingredient 27",
+        "Price": "$46.0",
+        "Description": "This is a description for Product 25, providing usage instructions and benefits.",
+        "High-resolution Images": "https://i.ibb.co.com/bPJ0fKL/product-06-330x440.jpg",
+        "Customer Reviews and Ratings": {
+            "Reviews": [
+                "Review 1 for Product 25",
+                "Review 2 for Product 25",
+                "Review 3 for Product 25"
+            ],
+            "Ratings": 3.0
+        },
+        "ID": 25
+    },
+    {
+        "Product Name": "Product 26",
+        "Brand": "Brand 26",
+        "Category": "bodycare",
+        "Feature": "non-cosmetics",
+        "NewArrival": "no",
+        "Ingredients": "Ingredient 26, Ingredient 27, Ingredient 28",
+        "Price": "$47.5",
+        "Description": "This is a description for Product 26, providing usage instructions and benefits.",
+        "High-resolution Images": "https://i.ibb.co.com/dJgXpsN/product-12-330x440.jpg",
+        "Customer Reviews and Ratings": {
+            "Reviews": [
+                "Review 1 for Product 26",
+                "Review 2 for Product 26",
+                "Review 3 for Product 26"
+            ],
+            "Ratings": 3.5
+        },
+        "ID": 26
+    },
+    {
+        "Product Name": "Product 27",
+        "Brand": "Brand 27",
+        "Category": "haircare",
+        "Feature": "non-cosmetics",
+        "NewArrival": "yes",
+        "Ingredients": "Ingredient 27, Ingredient 28, Ingredient 29",
+        "Price": "$49.0",
+        "Description": "This is a description for Product 27, providing usage instructions and benefits.",
+        "High-resolution Images": "https://i.ibb.co.com/9vfb4pK/product-08-330x440.jpg",
+        "Customer Reviews and Ratings": {
+            "Reviews": [
+                "Review 1 for Product 27",
+                "Review 2 for Product 27",
+                "Review 3 for Product 27"
+            ],
+            "Ratings": 4.0
+        },
+        "ID": 27
+    },
+    {
+        "Product Name": "Product 28",
+        "Brand": "Brand 28",
+        "Category": "makeup",
+        "Feature": "mascara",
+        "NewArrival": "no",
+        "Ingredients": "Ingredient 28, Ingredient 29, Ingredient 30",
+        "Price": "$50.5",
+        "Description": "This is a description for Product 28, providing usage instructions and benefits.",
+        "High-resolution Images": "https://i.ibb.co.com/7Jj3fN0/shop-test-img-01.jpg",
+        "Customer Reviews and Ratings": {
+            "Reviews": [
+                "Review 1 for Product 28",
+                "Review 2 for Product 28",
+                "Review 3 for Product 28"
+            ],
+            "Ratings": 3.0
+        },
+        "ID": 28
+    },
+    {
+        "Product Name": "Product 29",
+        "Brand": "Brand 29",
+        "Category": "makeup",
+        "Feature": "eyeshadow",
+        "NewArrival": "yes",
+        "Ingredients": "Ingredient 29, Ingredient 30, Ingredient 31",
+        "Price": "$52.0",
+        "Description": "This is a description for Product 29, providing usage instructions and benefits.",
+        "High-resolution Images": "https://i.ibb.co.com/sbrP2s5/shop-img-53.jpg",
+        "Customer Reviews and Ratings": {
+            "Reviews": [
+                "Review 1 for Product 29",
+                "Review 2 for Product 29",
+                "Review 3 for Product 29"
+            ],
+            "Ratings": 3.5
+        },
+        "ID": 29
+    },
+    {
+        "Product Name": "Product 30",
+        "Brand": "Brand 30",
+        "Category": "makeup",
+        "Feature": "lipstick",
+        "NewArrival": "no",
+        "Ingredients": "Ingredient 30, Ingredient 31, Ingredient 32",
+        "Price": "$53.5",
+        "Description": "This is a description for Product 30, providing usage instructions and benefits.",
+        "High-resolution Images": "https://i.ibb.co.com/7yrwrQt/shop-img-20.jpg",
+        "Customer Reviews and Ratings": {
+            "Reviews": [
+                "Review 1 for Product 30",
+                "Review 2 for Product 30",
+                "Review 3 for Product 30"
+            ],
+            "Ratings": 4.0
+        },
+        "ID": 30
+    },
+    {
+        "Product Name": "Product 31",
+        "Brand": "Brand 31",
+        "Category": "makeup",
+        "Feature": "bodymist",
+        "NewArrival": "yes",
+        "Ingredients": "Ingredient 31, Ingredient 32, Ingredient 33",
+        "Price": "$55.0",
+        "Description": "This is a description for Product 31, providing usage instructions and benefits.",
+        "High-resolution Images": "https://i.ibb.co.com/RBTrJNQ/112047178527-OF-F.jpg",
+        "Customer Reviews and Ratings": {
+            "Reviews": [
+                "Review 1 for Product 31",
+                "Review 2 for Product 31",
+                "Review 3 for Product 31"
+            ],
+            "Ratings": 3.0
+        },
+        "ID": 31
+    },
+    {
+        "Product Name": "Product 32",
+        "Brand": "Brand 32",
+        "Category": "makeup",
+        "Feature": "makeup kit",
+        "NewArrival": "no",
+        "Ingredients": "Ingredient 32, Ingredient 33, Ingredient 34",
+        "Price": "$56.5",
+        "Description": "This is a description for Product 32, providing usage instructions and benefits.",
+        "High-resolution Images": "https://i.ibb.co.com/QJr7wjj/shop-list-59-600x434.jpg",
+        "Customer Reviews and Ratings": {
+            "Reviews": [
+                "Review 1 for Product 32",
+                "Review 2 for Product 32",
+                "Review 3 for Product 32"
+            ],
+            "Ratings": 3.5
+        },
+        "ID": 32
+    },
+    {
+        "Product Name": "Product 33",
+        "Brand": "Brand 33",
+        "Category": "makeup",
+        "Feature": "foundation",
+        "NewArrival": "yes",
+        "Ingredients": "Ingredient 33, Ingredient 34, Ingredient 35",
+        "Price": "$58.0",
+        "Description": "This is a description for Product 33, providing usage instructions and benefits.",
+        "High-resolution Images": "https://i.ibb.co.com/mhr4ntN/shop-img-019.jpg",
+        "Customer Reviews and Ratings": {
+            "Reviews": [
+                "Review 1 for Product 33",
+                "Review 2 for Product 33",
+                "Review 3 for Product 33"
+            ],
+            "Ratings": 4.0
+        },
+        "ID": 33
+    },
+    {
+        "Product Name": "Product 34",
+        "Brand": "Brand 34",
+        "Category": "skincare",
+        "Feature": "non-cosmetics",
+        "NewArrival": "no",
+        "Ingredients": "Ingredient 34, Ingredient 35, Ingredient 36",
+        "Price": "$59.5",
+        "Description": "This is a description for Product 34, providing usage instructions and benefits.",
+        "High-resolution Images": "https://i.ibb.co.com/bPJ0fKL/product-06-330x440.jpg",
+        "Customer Reviews and Ratings": {
+            "Reviews": [
+                "Review 1 for Product 34",
+                "Review 2 for Product 34",
+                "Review 3 for Product 34"
+            ],
+            "Ratings": 3.0
+        },
+        "ID": 34
+    },
+    {
+        "Product Name": "Product 35",
+        "Brand": "Brand 35",
+        "Category": "bodycare",
+        "Feature": "non-cosmetics",
+        "NewArrival": "yes",
+        "Ingredients": "Ingredient 35, Ingredient 36, Ingredient 37",
+        "Price": "$61.0",
+        "Description": "This is a description for Product 35, providing usage instructions and benefits.",
+        "High-resolution Images": "https://i.ibb.co.com/dJgXpsN/product-12-330x440.jpg",
+        "Customer Reviews and Ratings": {
+            "Reviews": [
+                "Review 1 for Product 35",
+                "Review 2 for Product 35",
+                "Review 3 for Product 35"
+            ],
+            "Ratings": 3.5
+        },
+        "ID": 35
+    },
+    {
+        "Product Name": "Product 36",
+        "Brand": "Brand 36",
+        "Category": "haircare",
+        "Feature": "non-cosmetics",
+        "NewArrival": "no",
+        "Ingredients": "Ingredient 36, Ingredient 37, Ingredient 38",
+        "Price": "$62.5",
+        "Description": "This is a description for Product 36, providing usage instructions and benefits.",
+        "High-resolution Images": "https://i.ibb.co.com/9vfb4pK/product-08-330x440.jpg",
+        "Customer Reviews and Ratings": {
+            "Reviews": [
+                "Review 1 for Product 36",
+                "Review 2 for Product 36",
+                "Review 3 for Product 36"
+            ],
+            "Ratings": 4.0
+        },
+        "ID": 36
+    },
+    {
+        "Product Name": "Product 37",
+        "Brand": "Brand 37",
+        "Category": "makeup",
+        "Feature": "mascara",
+        "NewArrival": "yes",
+        "Ingredients": "Ingredient 37, Ingredient 38, Ingredient 39",
+        "Price": "$64.0",
+        "Description": "This is a description for Product 37, providing usage instructions and benefits.",
+        "High-resolution Images": "https://i.ibb.co.com/7Jj3fN0/shop-test-img-01.jpg",
+        "Customer Reviews and Ratings": {
+            "Reviews": [
+                "Review 1 for Product 37",
+                "Review 2 for Product 37",
+                "Review 3 for Product 37"
+            ],
+            "Ratings": 3.0
+        },
+        "ID": 37
+    },
+    {
+        "Product Name": "Product 38",
+        "Brand": "Brand 38",
+        "Category": "makeup",
+        "Feature": "eyeshadow",
+        "NewArrival": "no",
+        "Ingredients": "Ingredient 38, Ingredient 39, Ingredient 40",
+        "Price": "$65.5",
+        "Description": "This is a description for Product 38, providing usage instructions and benefits.",
+        "High-resolution Images": "https://i.ibb.co.com/sbrP2s5/shop-img-53.jpg",
+        "Customer Reviews and Ratings": {
+            "Reviews": [
+                "Review 1 for Product 38",
+                "Review 2 for Product 38",
+                "Review 3 for Product 38"
+            ],
+            "Ratings": 3.5
+        },
+        "ID": 38
+    },
+    {
+        "Product Name": "Product 39",
+        "Brand": "Brand 39",
+        "Category": "makeup",
+        "Feature": "lipstick",
+        "NewArrival": "yes",
+        "Ingredients": "Ingredient 39, Ingredient 40, Ingredient 41",
+        "Price": "$67.0",
+        "Description": "This is a description for Product 39, providing usage instructions and benefits.",
+        "High-resolution Images": "https://i.ibb.co.com/7yrwrQt/shop-img-20.jpg",
+        "Customer Reviews and Ratings": {
+            "Reviews": [
+                "Review 1 for Product 39",
+                "Review 2 for Product 39",
+                "Review 3 for Product 39"
+            ],
+            "Ratings": 4.0
+        },
+        "ID": 39
+    },
+    {
+        "Product Name": "Product 40",
+        "Brand": "Brand 40",
+        "Category": "makeup",
+        "Feature": "bodymist",
+        "NewArrival": "no",
+        "Ingredients": "Ingredient 40, Ingredient 41, Ingredient 42",
+        "Price": "$68.5",
+        "Description": "This is a description for Product 40, providing usage instructions and benefits.",
+        "High-resolution Images": "https://i.ibb.co.com/RBTrJNQ/112047178527-OF-F.jpg",
+        "Customer Reviews and Ratings": {
+            "Reviews": [
+                "Review 1 for Product 40",
+                "Review 2 for Product 40",
+                "Review 3 for Product 40"
+            ],
+            "Ratings": 3.0
+        },
+        "ID": 40
+    },
+    {
+        "Product Name": "Product 41",
+        "Brand": "Brand 41",
+        "Category": "makeup",
+        "Feature": "makeup kit",
+        "NewArrival": "yes",
+        "Ingredients": "Ingredient 41, Ingredient 42, Ingredient 43",
+        "Price": "$70.0",
+        "Description": "This is a description for Product 41, providing usage instructions and benefits.",
+        "High-resolution Images": "https://i.ibb.co.com/QJr7wjj/shop-list-59-600x434.jpg",
+        "Customer Reviews and Ratings": {
+            "Reviews": [
+                "Review 1 for Product 41",
+                "Review 2 for Product 41",
+                "Review 3 for Product 41"
+            ],
+            "Ratings": 3.5
+        },
+        "ID": 41
+    },
+    {
+        "Product Name": "Product 42",
+        "Brand": "Brand 42",
+        "Category": "makeup",
+        "Feature": "foundation",
+        "NewArrival": "no",
+        "Ingredients": "Ingredient 42, Ingredient 43, Ingredient 44",
+        "Price": "$71.5",
+        "Description": "This is a description for Product 42, providing usage instructions and benefits.",
+        "High-resolution Images": "https://i.ibb.co.com/mhr4ntN/shop-img-019.jpg",
+        "Customer Reviews and Ratings": {
+            "Reviews": [
+                "Review 1 for Product 42",
+                "Review 2 for Product 42",
+                "Review 3 for Product 42"
+            ],
+            "Ratings": 4.0
+        },
+        "ID": 42
+    },
+    {
+        "Product Name": "Product 43",
+        "Brand": "Brand 43",
+        "Category": "skincare",
+        "Feature": "non-cosmetics",
+        "NewArrival": "yes",
+        "Ingredients": "Ingredient 43, Ingredient 44, Ingredient 45",
+        "Price": "$73.0",
+        "Description": "This is a description for Product 43, providing usage instructions and benefits.",
+        "High-resolution Images": "https://i.ibb.co.com/bPJ0fKL/product-06-330x440.jpg",
+        "Customer Reviews and Ratings": {
+            "Reviews": [
+                "Review 1 for Product 43",
+                "Review 2 for Product 43",
+                "Review 3 for Product 43"
+            ],
+            "Ratings": 3.0
+        },
+        "ID": 43
+    },
+    {
+        "Product Name": "Product 44",
+        "Brand": "Brand 44",
+        "Category": "bodycare",
+        "Feature": "non-cosmetics",
+        "NewArrival": "no",
+        "Ingredients": "Ingredient 44, Ingredient 45, Ingredient 46",
+        "Price": "$74.5",
+        "Description": "This is a description for Product 44, providing usage instructions and benefits.",
+        "High-resolution Images": "https://i.ibb.co.com/dJgXpsN/product-12-330x440.jpg",
+        "Customer Reviews and Ratings": {
+            "Reviews": [
+                "Review 1 for Product 44",
+                "Review 2 for Product 44",
+                "Review 3 for Product 44"
+            ],
+            "Ratings": 3.5
+        },
+        "ID": 44
+    },
+    {
+        "Product Name": "Product 45",
+        "Brand": "Brand 45",
+        "Category": "haircare",
+        "Feature": "non-cosmetics",
+        "NewArrival": "yes",
+        "Ingredients": "Ingredient 45, Ingredient 46, Ingredient 47",
+        "Price": "$76.0",
+        "Description": "This is a description for Product 45, providing usage instructions and benefits.",
+        "High-resolution Images": "https://i.ibb.co.com/9vfb4pK/product-08-330x440.jpg",
+        "Customer Reviews and Ratings": {
+            "Reviews": [
+                "Review 1 for Product 45",
+                "Review 2 for Product 45",
+                "Review 3 for Product 45"
+            ],
+            "Ratings": 4.0
+        },
+        "ID": 45
+    },
+    {
+        "Product Name": "Product 46",
+        "Brand": "Brand 46",
+        "Category": "makeup",
+        "Feature": "mascara",
+        "NewArrival": "no",
+        "Ingredients": "Ingredient 46, Ingredient 47, Ingredient 48",
+        "Price": "$77.5",
+        "Description": "This is a description for Product 46, providing usage instructions and benefits.",
+        "High-resolution Images": "https://i.ibb.co.com/7Jj3fN0/shop-test-img-01.jpg",
+        "Customer Reviews and Ratings": {
+            "Reviews": [
+                "Review 1 for Product 46",
+                "Review 2 for Product 46",
+                "Review 3 for Product 46"
+            ],
+            "Ratings": 3.0
+        },
+        "ID": 46
+    },
+    {
+        "Product Name": "Product 47",
+        "Brand": "Brand 47",
+        "Category": "makeup",
+        "Feature": "eyeshadow",
+        "NewArrival": "yes",
+        "Ingredients": "Ingredient 47, Ingredient 48, Ingredient 49",
+        "Price": "$79.0",
+        "Description": "This is a description for Product 47, providing usage instructions and benefits.",
+        "High-resolution Images": "https://i.ibb.co.com/sbrP2s5/shop-img-53.jpg",
+        "Customer Reviews and Ratings": {
+            "Reviews": [
+                "Review 1 for Product 47",
+                "Review 2 for Product 47",
+                "Review 3 for Product 47"
+            ],
+            "Ratings": 3.5
+        },
+        "ID": 47
+    },
+    {
+        "Product Name": "Product 48",
+        "Brand": "Brand 48",
+        "Category": "makeup",
+        "Feature": "lipstick",
+        "NewArrival": "no",
+        "Ingredients": "Ingredient 48, Ingredient 49, Ingredient 50",
+        "Price": "$80.5",
+        "Description": "This is a description for Product 48, providing usage instructions and benefits.",
+        "High-resolution Images": "https://i.ibb.co.com/7yrwrQt/shop-img-20.jpg",
+        "Customer Reviews and Ratings": {
+            "Reviews": [
+                "Review 1 for Product 48",
+                "Review 2 for Product 48",
+                "Review 3 for Product 48"
+            ],
+            "Ratings": 4.0
+        },
+        "ID": 48
+    },
+    {
+        "Product Name": "Product 49",
+        "Brand": "Brand 49",
+        "Category": "makeup",
+        "Feature": "bodymist",
+        "NewArrival": "yes",
+        "Ingredients": "Ingredient 49, Ingredient 50, Ingredient 51",
+        "Price": "$82.0",
+        "Description": "This is a description for Product 49, providing usage instructions and benefits.",
+        "High-resolution Images": "https://i.ibb.co.com/RBTrJNQ/112047178527-OF-F.jpg",
+        "Customer Reviews and Ratings": {
+            "Reviews": [
+                "Review 1 for Product 49",
+                "Review 2 for Product 49",
+                "Review 3 for Product 49"
+            ],
+            "Ratings": 3.0
+        },
+        "ID": 49
+    },
+    {
+        "Product Name": "Product 50",
+        "Brand": "Brand 50",
+        "Category": "makeup",
+        "Feature": "makeup kit",
+        "NewArrival": "no",
+        "Ingredients": "Ingredient 50, Ingredient 51, Ingredient 52",
+        "Price": "$83.5",
+        "Description": "This is a description for Product 50, providing usage instructions and benefits.",
+        "High-resolution Images": "https://i.ibb.co.com/QJr7wjj/shop-list-59-600x434.jpg",
+        "Customer Reviews and Ratings": {
+            "Reviews": [
+                "Review 1 for Product 50",
+                "Review 2 for Product 50",
+                "Review 3 for Product 50"
+            ],
+            "Ratings": 3.5
+        },
+        "ID": 50
+    },
+    {
+        "Product Name": "Product 51",
+        "Brand": "Brand 51",
+        "Category": "makeup",
+        "Feature": "foundation",
+        "NewArrival": "yes",
+        "Ingredients": "Ingredient 51, Ingredient 52, Ingredient 53",
+        "Price": "$85.0",
+        "Description": "This is a description for Product 51, providing usage instructions and benefits.",
+        "High-resolution Images": "https://i.ibb.co.com/mhr4ntN/shop-img-019.jpg",
+        "Customer Reviews and Ratings": {
+            "Reviews": [
+                "Review 1 for Product 51",
+                "Review 2 for Product 51",
+                "Review 3 for Product 51"
+            ],
+            "Ratings": 4.0
+        },
+        "ID": 51
+    },
+    {
+        "Product Name": "Product 52",
+        "Brand": "Brand 52",
+        "Category": "skincare",
+        "Feature": "non-cosmetics",
+        "NewArrival": "no",
+        "Ingredients": "Ingredient 52, Ingredient 53, Ingredient 54",
+        "Price": "$86.5",
+        "Description": "This is a description for Product 52, providing usage instructions and benefits.",
+        "High-resolution Images": "https://i.ibb.co.com/bPJ0fKL/product-06-330x440.jpg",
+        "Customer Reviews and Ratings": {
+            "Reviews": [
+                "Review 1 for Product 52",
+                "Review 2 for Product 52",
+                "Review 3 for Product 52"
+            ],
+            "Ratings": 3.0
+        },
+        "ID": 52
+    },
+    {
+        "Product Name": "Product 53",
+        "Brand": "Brand 53",
+        "Category": "bodycare",
+        "Feature": "non-cosmetics",
+        "NewArrival": "yes",
+        "Ingredients": "Ingredient 53, Ingredient 54, Ingredient 55",
+        "Price": "$88.0",
+        "Description": "This is a description for Product 53, providing usage instructions and benefits.",
+        "High-resolution Images": "https://i.ibb.co.com/dJgXpsN/product-12-330x440.jpg",
+        "Customer Reviews and Ratings": {
+            "Reviews": [
+                "Review 1 for Product 53",
+                "Review 2 for Product 53",
+                "Review 3 for Product 53"
+            ],
+            "Ratings": 3.5
+        },
+        "ID": 53
+    },
+    {
+        "Product Name": "Product 54",
+        "Brand": "Brand 54",
+        "Category": "haircare",
+        "Feature": "non-cosmetics",
+        "NewArrival": "no",
+        "Ingredients": "Ingredient 54, Ingredient 55, Ingredient 56",
+        "Price": "$89.5",
+        "Description": "This is a description for Product 54, providing usage instructions and benefits.",
+        "High-resolution Images": "https://i.ibb.co.com/9vfb4pK/product-08-330x440.jpg",
+        "Customer Reviews and Ratings": {
+            "Reviews": [
+                "Review 1 for Product 54",
+                "Review 2 for Product 54",
+                "Review 3 for Product 54"
+            ],
+            "Ratings": 4.0
+        },
+        "ID": 54
+    }
+]
