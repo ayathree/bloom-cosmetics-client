@@ -8,11 +8,11 @@ import { FiShoppingBag } from 'react-icons/fi';
 import { GrView } from 'react-icons/gr';
 import { FaRegStar } from 'react-icons/fa';
 import { useEffect, useState } from 'react';
-import { RxCross1 } from 'react-icons/rx';
-import ProductDetails from './ProductDetails';
-const Arrivals = () => {
+// import { RxCross1 } from 'react-icons/rx';
+// import ProductDetails from './ProductDetails';
+const Arrivals = ({ setSelectedProduct }) => {
   const[newArrivals,setNewArrivals]=useState([]);
-  const [selectedProduct, setSelectedProduct] = useState(null);
+  
   useEffect(()=>{
     fetch('50_products_with_ids.json')
     .then(res=> res.json())
@@ -23,7 +23,7 @@ const Arrivals = () => {
       })
   },[])
     return (
-        <div className="mt-20">
+        <div className="mt-20 relative">
              <div>
                 <p className="text-center mb-5 font-semibold text-4xl uppercase ">new arrivals</p>
                 <p className="text-center mb-16 text-lg">Looking For Something Specific? Find Out Your Perfect <br /> Products   In New Arrivals</p>
@@ -68,25 +68,11 @@ const Arrivals = () => {
             </div></SwiperSlide> 
           ))
         }
-        {/* Modal */}
-{selectedProduct && (
-        <div className="absolute inset-0 flex justify-center items-center  bg-black/70 z-10">
-          <div className="bg-neutral-800 p-3 lg:p-6 lg:w-2/3 m-3 max-h-[90vh] overflow-y-auto scrollbar scrollbar-thumb-gray-600 scrollbar-track-white text-center">
-            {/* Close Button */}
-            <button
-              className="absolute top-2 right-2  text-white px-2 py-1 rounded"
-              onClick={() => setSelectedProduct(null)} // Close modal
-            >
-             <RxCross1 className='bg-red-600 text-white font-bold' />
-            </button>
-            {/* Project Details */}
-            <ProductDetails product={selectedProduct} />
-          </div>
-        </div>
-      )}
+
         
       </Swiper>
             </div>
+       
 
             
         </div>

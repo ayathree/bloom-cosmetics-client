@@ -13,24 +13,28 @@ const ProductDetails = ({ product })  => {
         CustomerReviewsAndRatings,
       } = product;
     return (
-        <div>
-        
-        <img className="w-full h-auto mb-4 uppercase" src={Image} alt={ProductName} />
-        <h2 className="text-2xl text-white font-bold m-4">{ProductName}</h2>
-        <p className="mb-4 text-white uppercase ">{Description}</p>
-        
-        
-        <h3 className="font-semibold mt-5 lg:mt-0 mb-2 text-white flex  justify-start items-start text-lg uppercase underline ">Features:</h3>
-        <ul className="list-disc list-inside mb-4 text-start  ">
-        <p className="text-white">{CustomerReviewsAndRatings.Ratings}</p>
-       
-          {CustomerReviewsAndRatings.Reviews.map((Review, index) => (
-            <li className="text-white " key={index}>{Review}</li>
-          ))}
-        </ul>
-        <h3 className="font-semibold mb-2 text-white flex  justify-start items-start text-lg uppercase underline ">Used Technologies:</h3>
-         
-      </div>
+        <div className="flex lg:flex-row flex-col justify-center items-start gap-10">
+        <div className="w-full">
+            <img className="" src={Image} alt="" />
+        </div>
+        <div className="space-y-2 w-full">
+        <p className=' bg-[#047857]  text-white p-1 px-2 font-semibold inline-block'>{Price}</p>
+            <p className="text-black font-bold uppercase text-2xl">{ProductName}</p>
+            <div className="flex flex-row justify-start items-start gap-2">
+            <p className="text-black font-bold flex flex-row justify-center items-center gap-2">{CustomerReviewsAndRatings.Ratings} <div className="rating">
+  <input type="radio" name="rating-4" className="mask mask-star-2 bg-[#047857] h-[16px]" />
+  <input type="radio" name="rating-4" className="mask mask-star-2 bg-[#047857] h-[16px]"  />
+  <input type="radio" name="rating-4" className="mask mask-star-2 bg-[#047857] h-[16px]" />
+  <input type="radio" name="rating-4" className="mask mask-star-2 bg-[#047857] h-[16px]" />
+  <input type="radio" name="rating-4" className="mask mask-star-2 bg-[#047857] h-[16px]" />
+</div></p>
+<p>|</p>
+<a href="" className="hover:underline">Read the Reviews</a>
+            
+            </div>
+        </div>
+    </div>
+    
     );
 };
 
