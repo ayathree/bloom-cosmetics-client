@@ -8,7 +8,7 @@
         "Ingredients": "Ingredient 1, Ingredient 2, Ingredient 3",
         "Price": "$10.0",
         "Description": "This is a description for Product 1, providing usage instructions and benefits.",
-        "High-resolution Images": "https://i.ibb.co.com/7Jj3fN0/shop-test-img-01.jpg",
+        "Image": "https://i.ibb.co.com/7Jj3fN0/shop-test-img-01.jpg",
         "Customer Reviews and Ratings": {
             "Reviews": [
                 "Review 1 for Product 1",
@@ -28,7 +28,7 @@
         "Ingredients": "Ingredient 2, Ingredient 3, Ingredient 4",
         "Price": "$11.5",
         "Description": "This is a description for Product 2, providing usage instructions and benefits.",
-        "High-resolution Images": "https://i.ibb.co.com/sbrP2s5/shop-img-53.jpg",
+        "Image": "https://i.ibb.co.com/sbrP2s5/shop-img-53.jpg",
         "Customer Reviews and Ratings": {
             "Reviews": [
                 "Review 1 for Product 2",
@@ -48,7 +48,7 @@
         "Ingredients": "Ingredient 3, Ingredient 4, Ingredient 5",
         "Price": "$13.0",
         "Description": "This is a description for Product 3, providing usage instructions and benefits.",
-        "High-resolution Images": "https://i.ibb.co.com/7yrwrQt/shop-img-20.jpg",
+        "Image": "https://i.ibb.co.com/7yrwrQt/shop-img-20.jpg",
         "Customer Reviews and Ratings": {
             "Reviews": [
                 "Review 1 for Product 3",
@@ -68,7 +68,7 @@
         "Ingredients": "Ingredient 4, Ingredient 5, Ingredient 6",
         "Price": "$14.5",
         "Description": "This is a description for Product 4, providing usage instructions and benefits.",
-        "High-resolution Images": "https://i.ibb.co.com/RBTrJNQ/112047178527-OF-F.jpg",
+        "Image": "https://i.ibb.co.com/RBTrJNQ/112047178527-OF-F.jpg",
         "Customer Reviews and Ratings": {
             "Reviews": [
                 "Review 1 for Product 4",
@@ -88,7 +88,7 @@
         "Ingredients": "Ingredient 5, Ingredient 6, Ingredient 7",
         "Price": "$16.0",
         "Description": "This is a description for Product 5, providing usage instructions and benefits.",
-        "High-resolution Images": "https://i.ibb.co.com/QJr7wjj/shop-list-59-600x434.jpg",
+        "Image": "https://i.ibb.co.com/b2T97gK/GWA-Burgundy-Brush-Set2.jpg",
         "Customer Reviews and Ratings": {
             "Reviews": [
                 "Review 1 for Product 5",
@@ -108,7 +108,7 @@
         "Ingredients": "Ingredient 6, Ingredient 7, Ingredient 8",
         "Price": "$17.5",
         "Description": "This is a description for Product 6, providing usage instructions and benefits.",
-        "High-resolution Images": "https://i.ibb.co.com/mhr4ntN/shop-img-019.jpg",
+        "Image": "https://i.ibb.co.com/mhr4ntN/shop-img-019.jpg",
         "Customer Reviews and Ratings": {
             "Reviews": [
                 "Review 1 for Product 6",
@@ -128,7 +128,7 @@
         "Ingredients": "Ingredient 7, Ingredient 8, Ingredient 9",
         "Price": "$19.0",
         "Description": "This is a description for Product 7, providing usage instructions and benefits.",
-        "High-resolution Images": "https://i.ibb.co.com/bPJ0fKL/product-06-330x440.jpg",
+        "Image": "https://i.ibb.co.com/bPJ0fKL/product-06-330x440.jpg",
         "Customer Reviews and Ratings": {
             "Reviews": [
                 "Review 1 for Product 7",
@@ -148,7 +148,7 @@
         "Ingredients": "Ingredient 8, Ingredient 9, Ingredient 10",
         "Price": "$20.5",
         "Description": "This is a description for Product 8, providing usage instructions and benefits.",
-        "High-resolution Images": "https://i.ibb.co.com/dJgXpsN/product-12-330x440.jpg",
+        "Image": "https://i.ibb.co.com/dJgXpsN/product-12-330x440.jpg",
         "Customer Reviews and Ratings": {
             "Reviews": [
                 "Review 1 for Product 8",
@@ -168,7 +168,7 @@
         "Ingredients": "Ingredient 9, Ingredient 10, Ingredient 11",
         "Price": "$22.0",
         "Description": "This is a description for Product 9, providing usage instructions and benefits.",
-        "High-resolution Images": "https://i.ibb.co.com/9vfb4pK/product-08-330x440.jpg",
+        "Image": "https://i.ibb.co.com/9vfb4pK/product-08-330x440.jpg",
         "Customer Reviews and Ratings": {
             "Reviews": [
                 "Review 1 for Product 9",
@@ -188,7 +188,7 @@
         "Ingredients": "Ingredient 10, Ingredient 11, Ingredient 12",
         "Price": "$23.5",
         "Description": "This is a description for Product 10, providing usage instructions and benefits.",
-        "High-resolution Images": "https://i.ibb.co.com/7Jj3fN0/shop-test-img-01.jpg",
+        "Image": "https://i.ibb.co.com/7Jj3fN0/shop-test-img-01.jpg",
         "Customer Reviews and Ratings": {
             "Reviews": [
                 "Review 1 for Product 10",
@@ -208,7 +208,7 @@
         "Ingredients": "Ingredient 11, Ingredient 12, Ingredient 13",
         "Price": "$25.0",
         "Description": "This is a description for Product 11, providing usage instructions and benefits.",
-        "High-resolution Images": "https://i.ibb.co.com/sbrP2s5/shop-img-53.jpg",
+        "Image": "https://i.ibb.co.com/sbrP2s5/shop-img-53.jpg",
         "Customer Reviews and Ratings": {
             "Reviews": [
                 "Review 1 for Product 11",
@@ -228,7 +228,7 @@
         "Ingredients": "Ingredient 12, Ingredient 13, Ingredient 14",
         "Price": "$26.5",
         "Description": "This is a description for Product 12, providing usage instructions and benefits.",
-        "High-resolution Images": "https://i.ibb.co.com/7yrwrQt/shop-img-20.jpg",
+        "Image": "https://i.ibb.co.com/7yrwrQt/shop-img-20.jpg",
         "Customer Reviews and Ratings": {
             "Reviews": [
                 "Review 1 for Product 12",
@@ -248,7 +248,7 @@
         "Ingredients": "Ingredient 13, Ingredient 14, Ingredient 15",
         "Price": "$28.0",
         "Description": "This is a description for Product 13, providing usage instructions and benefits.",
-        "High-resolution Images": "https://i.ibb.co.com/RBTrJNQ/112047178527-OF-F.jpg",
+        "Image": "https://i.ibb.co.com/RBTrJNQ/112047178527-OF-F.jpg",
         "Customer Reviews and Ratings": {
             "Reviews": [
                 "Review 1 for Product 13",
@@ -268,7 +268,7 @@
         "Ingredients": "Ingredient 14, Ingredient 15, Ingredient 16",
         "Price": "$29.5",
         "Description": "This is a description for Product 14, providing usage instructions and benefits.",
-        "High-resolution Images": "https://i.ibb.co.com/QJr7wjj/shop-list-59-600x434.jpg",
+        "Image": "https://i.ibb.co.com/b2T97gK/GWA-Burgundy-Brush-Set2.jpg",
         "Customer Reviews and Ratings": {
             "Reviews": [
                 "Review 1 for Product 14",
@@ -288,7 +288,7 @@
         "Ingredients": "Ingredient 15, Ingredient 16, Ingredient 17",
         "Price": "$31.0",
         "Description": "This is a description for Product 15, providing usage instructions and benefits.",
-        "High-resolution Images": "https://i.ibb.co.com/mhr4ntN/shop-img-019.jpg",
+        "Image": "https://i.ibb.co.com/mhr4ntN/shop-img-019.jpg",
         "Customer Reviews and Ratings": {
             "Reviews": [
                 "Review 1 for Product 15",
@@ -308,7 +308,7 @@
         "Ingredients": "Ingredient 16, Ingredient 17, Ingredient 18",
         "Price": "$32.5",
         "Description": "This is a description for Product 16, providing usage instructions and benefits.",
-        "High-resolution Images": "https://i.ibb.co.com/bPJ0fKL/product-06-330x440.jpg",
+        "Image": "https://i.ibb.co.com/bPJ0fKL/product-06-330x440.jpg",
         "Customer Reviews and Ratings": {
             "Reviews": [
                 "Review 1 for Product 16",
@@ -328,7 +328,7 @@
         "Ingredients": "Ingredient 17, Ingredient 18, Ingredient 19",
         "Price": "$34.0",
         "Description": "This is a description for Product 17, providing usage instructions and benefits.",
-        "High-resolution Images": "https://i.ibb.co.com/dJgXpsN/product-12-330x440.jpg",
+        "Image": "https://i.ibb.co.com/dJgXpsN/product-12-330x440.jpg",
         "Customer Reviews and Ratings": {
             "Reviews": [
                 "Review 1 for Product 17",
@@ -348,7 +348,7 @@
         "Ingredients": "Ingredient 18, Ingredient 19, Ingredient 20",
         "Price": "$35.5",
         "Description": "This is a description for Product 18, providing usage instructions and benefits.",
-        "High-resolution Images": "https://i.ibb.co.com/9vfb4pK/product-08-330x440.jpg",
+        "Image": "https://i.ibb.co.com/9vfb4pK/product-08-330x440.jpg",
         "Customer Reviews and Ratings": {
             "Reviews": [
                 "Review 1 for Product 18",
@@ -368,7 +368,7 @@
         "Ingredients": "Ingredient 19, Ingredient 20, Ingredient 21",
         "Price": "$37.0",
         "Description": "This is a description for Product 19, providing usage instructions and benefits.",
-        "High-resolution Images": "https://i.ibb.co.com/7Jj3fN0/shop-test-img-01.jpg",
+        "Image": "https://i.ibb.co.com/7Jj3fN0/shop-test-img-01.jpg",
         "Customer Reviews and Ratings": {
             "Reviews": [
                 "Review 1 for Product 19",
@@ -388,7 +388,7 @@
         "Ingredients": "Ingredient 20, Ingredient 21, Ingredient 22",
         "Price": "$38.5",
         "Description": "This is a description for Product 20, providing usage instructions and benefits.",
-        "High-resolution Images": "https://i.ibb.co.com/sbrP2s5/shop-img-53.jpg",
+        "Image": "https://i.ibb.co.com/sbrP2s5/shop-img-53.jpg",
         "Customer Reviews and Ratings": {
             "Reviews": [
                 "Review 1 for Product 20",
@@ -408,7 +408,7 @@
         "Ingredients": "Ingredient 21, Ingredient 22, Ingredient 23",
         "Price": "$40.0",
         "Description": "This is a description for Product 21, providing usage instructions and benefits.",
-        "High-resolution Images": "https://i.ibb.co.com/7yrwrQt/shop-img-20.jpg",
+        "Image": "https://i.ibb.co.com/7yrwrQt/shop-img-20.jpg",
         "Customer Reviews and Ratings": {
             "Reviews": [
                 "Review 1 for Product 21",
@@ -428,7 +428,7 @@
         "Ingredients": "Ingredient 22, Ingredient 23, Ingredient 24",
         "Price": "$41.5",
         "Description": "This is a description for Product 22, providing usage instructions and benefits.",
-        "High-resolution Images": "https://i.ibb.co.com/RBTrJNQ/112047178527-OF-F.jpg",
+        "Image": "https://i.ibb.co.com/RBTrJNQ/112047178527-OF-F.jpg",
         "Customer Reviews and Ratings": {
             "Reviews": [
                 "Review 1 for Product 22",
@@ -448,7 +448,7 @@
         "Ingredients": "Ingredient 23, Ingredient 24, Ingredient 25",
         "Price": "$43.0",
         "Description": "This is a description for Product 23, providing usage instructions and benefits.",
-        "High-resolution Images": "https://i.ibb.co.com/QJr7wjj/shop-list-59-600x434.jpg",
+        "Image": "https://i.ibb.co.com/b2T97gK/GWA-Burgundy-Brush-Set2.jpg",
         "Customer Reviews and Ratings": {
             "Reviews": [
                 "Review 1 for Product 23",
@@ -468,7 +468,7 @@
         "Ingredients": "Ingredient 24, Ingredient 25, Ingredient 26",
         "Price": "$44.5",
         "Description": "This is a description for Product 24, providing usage instructions and benefits.",
-        "High-resolution Images": "https://i.ibb.co.com/mhr4ntN/shop-img-019.jpg",
+        "Image": "https://i.ibb.co.com/mhr4ntN/shop-img-019.jpg",
         "Customer Reviews and Ratings": {
             "Reviews": [
                 "Review 1 for Product 24",
@@ -488,7 +488,7 @@
         "Ingredients": "Ingredient 25, Ingredient 26, Ingredient 27",
         "Price": "$46.0",
         "Description": "This is a description for Product 25, providing usage instructions and benefits.",
-        "High-resolution Images": "https://i.ibb.co.com/bPJ0fKL/product-06-330x440.jpg",
+        "Image": "https://i.ibb.co.com/bPJ0fKL/product-06-330x440.jpg",
         "Customer Reviews and Ratings": {
             "Reviews": [
                 "Review 1 for Product 25",
@@ -508,7 +508,7 @@
         "Ingredients": "Ingredient 26, Ingredient 27, Ingredient 28",
         "Price": "$47.5",
         "Description": "This is a description for Product 26, providing usage instructions and benefits.",
-        "High-resolution Images": "https://i.ibb.co.com/dJgXpsN/product-12-330x440.jpg",
+        "Image": "https://i.ibb.co.com/dJgXpsN/product-12-330x440.jpg",
         "Customer Reviews and Ratings": {
             "Reviews": [
                 "Review 1 for Product 26",
@@ -528,7 +528,7 @@
         "Ingredients": "Ingredient 27, Ingredient 28, Ingredient 29",
         "Price": "$49.0",
         "Description": "This is a description for Product 27, providing usage instructions and benefits.",
-        "High-resolution Images": "https://i.ibb.co.com/9vfb4pK/product-08-330x440.jpg",
+        "Image": "https://i.ibb.co.com/9vfb4pK/product-08-330x440.jpg",
         "Customer Reviews and Ratings": {
             "Reviews": [
                 "Review 1 for Product 27",
@@ -548,7 +548,7 @@
         "Ingredients": "Ingredient 28, Ingredient 29, Ingredient 30",
         "Price": "$50.5",
         "Description": "This is a description for Product 28, providing usage instructions and benefits.",
-        "High-resolution Images": "https://i.ibb.co.com/7Jj3fN0/shop-test-img-01.jpg",
+        "Image": "https://i.ibb.co.com/7Jj3fN0/shop-test-img-01.jpg",
         "Customer Reviews and Ratings": {
             "Reviews": [
                 "Review 1 for Product 28",
@@ -568,7 +568,7 @@
         "Ingredients": "Ingredient 29, Ingredient 30, Ingredient 31",
         "Price": "$52.0",
         "Description": "This is a description for Product 29, providing usage instructions and benefits.",
-        "High-resolution Images": "https://i.ibb.co.com/sbrP2s5/shop-img-53.jpg",
+        "Image": "https://i.ibb.co.com/sbrP2s5/shop-img-53.jpg",
         "Customer Reviews and Ratings": {
             "Reviews": [
                 "Review 1 for Product 29",
@@ -588,7 +588,7 @@
         "Ingredients": "Ingredient 30, Ingredient 31, Ingredient 32",
         "Price": "$53.5",
         "Description": "This is a description for Product 30, providing usage instructions and benefits.",
-        "High-resolution Images": "https://i.ibb.co.com/7yrwrQt/shop-img-20.jpg",
+        "Image": "https://i.ibb.co.com/7yrwrQt/shop-img-20.jpg",
         "Customer Reviews and Ratings": {
             "Reviews": [
                 "Review 1 for Product 30",
@@ -608,7 +608,7 @@
         "Ingredients": "Ingredient 31, Ingredient 32, Ingredient 33",
         "Price": "$55.0",
         "Description": "This is a description for Product 31, providing usage instructions and benefits.",
-        "High-resolution Images": "https://i.ibb.co.com/RBTrJNQ/112047178527-OF-F.jpg",
+        "Image": "https://i.ibb.co.com/RBTrJNQ/112047178527-OF-F.jpg",
         "Customer Reviews and Ratings": {
             "Reviews": [
                 "Review 1 for Product 31",
@@ -628,7 +628,7 @@
         "Ingredients": "Ingredient 32, Ingredient 33, Ingredient 34",
         "Price": "$56.5",
         "Description": "This is a description for Product 32, providing usage instructions and benefits.",
-        "High-resolution Images": "https://i.ibb.co.com/QJr7wjj/shop-list-59-600x434.jpg",
+        "Image": "https://i.ibb.co.com/b2T97gK/GWA-Burgundy-Brush-Set2.jpg",
         "Customer Reviews and Ratings": {
             "Reviews": [
                 "Review 1 for Product 32",
@@ -648,7 +648,7 @@
         "Ingredients": "Ingredient 33, Ingredient 34, Ingredient 35",
         "Price": "$58.0",
         "Description": "This is a description for Product 33, providing usage instructions and benefits.",
-        "High-resolution Images": "https://i.ibb.co.com/mhr4ntN/shop-img-019.jpg",
+        "Image": "https://i.ibb.co.com/mhr4ntN/shop-img-019.jpg",
         "Customer Reviews and Ratings": {
             "Reviews": [
                 "Review 1 for Product 33",
@@ -668,7 +668,7 @@
         "Ingredients": "Ingredient 34, Ingredient 35, Ingredient 36",
         "Price": "$59.5",
         "Description": "This is a description for Product 34, providing usage instructions and benefits.",
-        "High-resolution Images": "https://i.ibb.co.com/bPJ0fKL/product-06-330x440.jpg",
+        "Image": "https://i.ibb.co.com/bPJ0fKL/product-06-330x440.jpg",
         "Customer Reviews and Ratings": {
             "Reviews": [
                 "Review 1 for Product 34",
@@ -688,7 +688,7 @@
         "Ingredients": "Ingredient 35, Ingredient 36, Ingredient 37",
         "Price": "$61.0",
         "Description": "This is a description for Product 35, providing usage instructions and benefits.",
-        "High-resolution Images": "https://i.ibb.co.com/dJgXpsN/product-12-330x440.jpg",
+        "Image": "https://i.ibb.co.com/dJgXpsN/product-12-330x440.jpg",
         "Customer Reviews and Ratings": {
             "Reviews": [
                 "Review 1 for Product 35",
@@ -708,7 +708,7 @@
         "Ingredients": "Ingredient 36, Ingredient 37, Ingredient 38",
         "Price": "$62.5",
         "Description": "This is a description for Product 36, providing usage instructions and benefits.",
-        "High-resolution Images": "https://i.ibb.co.com/9vfb4pK/product-08-330x440.jpg",
+        "Image": "https://i.ibb.co.com/9vfb4pK/product-08-330x440.jpg",
         "Customer Reviews and Ratings": {
             "Reviews": [
                 "Review 1 for Product 36",
@@ -728,7 +728,7 @@
         "Ingredients": "Ingredient 37, Ingredient 38, Ingredient 39",
         "Price": "$64.0",
         "Description": "This is a description for Product 37, providing usage instructions and benefits.",
-        "High-resolution Images": "https://i.ibb.co.com/7Jj3fN0/shop-test-img-01.jpg",
+        "Image": "https://i.ibb.co.com/7Jj3fN0/shop-test-img-01.jpg",
         "Customer Reviews and Ratings": {
             "Reviews": [
                 "Review 1 for Product 37",
@@ -748,7 +748,7 @@
         "Ingredients": "Ingredient 38, Ingredient 39, Ingredient 40",
         "Price": "$65.5",
         "Description": "This is a description for Product 38, providing usage instructions and benefits.",
-        "High-resolution Images": "https://i.ibb.co.com/sbrP2s5/shop-img-53.jpg",
+        "Image": "https://i.ibb.co.com/sbrP2s5/shop-img-53.jpg",
         "Customer Reviews and Ratings": {
             "Reviews": [
                 "Review 1 for Product 38",
@@ -768,7 +768,7 @@
         "Ingredients": "Ingredient 39, Ingredient 40, Ingredient 41",
         "Price": "$67.0",
         "Description": "This is a description for Product 39, providing usage instructions and benefits.",
-        "High-resolution Images": "https://i.ibb.co.com/7yrwrQt/shop-img-20.jpg",
+        "Image": "https://i.ibb.co.com/7yrwrQt/shop-img-20.jpg",
         "Customer Reviews and Ratings": {
             "Reviews": [
                 "Review 1 for Product 39",
@@ -788,7 +788,7 @@
         "Ingredients": "Ingredient 40, Ingredient 41, Ingredient 42",
         "Price": "$68.5",
         "Description": "This is a description for Product 40, providing usage instructions and benefits.",
-        "High-resolution Images": "https://i.ibb.co.com/RBTrJNQ/112047178527-OF-F.jpg",
+        "Image": "https://i.ibb.co.com/RBTrJNQ/112047178527-OF-F.jpg",
         "Customer Reviews and Ratings": {
             "Reviews": [
                 "Review 1 for Product 40",
@@ -808,7 +808,7 @@
         "Ingredients": "Ingredient 41, Ingredient 42, Ingredient 43",
         "Price": "$70.0",
         "Description": "This is a description for Product 41, providing usage instructions and benefits.",
-        "High-resolution Images": "https://i.ibb.co.com/QJr7wjj/shop-list-59-600x434.jpg",
+        "Image": "https://i.ibb.co.com/b2T97gK/GWA-Burgundy-Brush-Set2.jpg",
         "Customer Reviews and Ratings": {
             "Reviews": [
                 "Review 1 for Product 41",
@@ -828,7 +828,7 @@
         "Ingredients": "Ingredient 42, Ingredient 43, Ingredient 44",
         "Price": "$71.5",
         "Description": "This is a description for Product 42, providing usage instructions and benefits.",
-        "High-resolution Images": "https://i.ibb.co.com/mhr4ntN/shop-img-019.jpg",
+        "Image": "https://i.ibb.co.com/mhr4ntN/shop-img-019.jpg",
         "Customer Reviews and Ratings": {
             "Reviews": [
                 "Review 1 for Product 42",
@@ -848,7 +848,7 @@
         "Ingredients": "Ingredient 43, Ingredient 44, Ingredient 45",
         "Price": "$73.0",
         "Description": "This is a description for Product 43, providing usage instructions and benefits.",
-        "High-resolution Images": "https://i.ibb.co.com/bPJ0fKL/product-06-330x440.jpg",
+        "Image": "https://i.ibb.co.com/bPJ0fKL/product-06-330x440.jpg",
         "Customer Reviews and Ratings": {
             "Reviews": [
                 "Review 1 for Product 43",
@@ -868,7 +868,7 @@
         "Ingredients": "Ingredient 44, Ingredient 45, Ingredient 46",
         "Price": "$74.5",
         "Description": "This is a description for Product 44, providing usage instructions and benefits.",
-        "High-resolution Images": "https://i.ibb.co.com/dJgXpsN/product-12-330x440.jpg",
+        "Image": "https://i.ibb.co.com/dJgXpsN/product-12-330x440.jpg",
         "Customer Reviews and Ratings": {
             "Reviews": [
                 "Review 1 for Product 44",
@@ -888,7 +888,7 @@
         "Ingredients": "Ingredient 45, Ingredient 46, Ingredient 47",
         "Price": "$76.0",
         "Description": "This is a description for Product 45, providing usage instructions and benefits.",
-        "High-resolution Images": "https://i.ibb.co.com/9vfb4pK/product-08-330x440.jpg",
+        "Image": "https://i.ibb.co.com/9vfb4pK/product-08-330x440.jpg",
         "Customer Reviews and Ratings": {
             "Reviews": [
                 "Review 1 for Product 45",
@@ -908,7 +908,7 @@
         "Ingredients": "Ingredient 46, Ingredient 47, Ingredient 48",
         "Price": "$77.5",
         "Description": "This is a description for Product 46, providing usage instructions and benefits.",
-        "High-resolution Images": "https://i.ibb.co.com/7Jj3fN0/shop-test-img-01.jpg",
+        "Image": "https://i.ibb.co.com/7Jj3fN0/shop-test-img-01.jpg",
         "Customer Reviews and Ratings": {
             "Reviews": [
                 "Review 1 for Product 46",
@@ -928,7 +928,7 @@
         "Ingredients": "Ingredient 47, Ingredient 48, Ingredient 49",
         "Price": "$79.0",
         "Description": "This is a description for Product 47, providing usage instructions and benefits.",
-        "High-resolution Images": "https://i.ibb.co.com/sbrP2s5/shop-img-53.jpg",
+        "Image": "https://i.ibb.co.com/sbrP2s5/shop-img-53.jpg",
         "Customer Reviews and Ratings": {
             "Reviews": [
                 "Review 1 for Product 47",
@@ -948,7 +948,7 @@
         "Ingredients": "Ingredient 48, Ingredient 49, Ingredient 50",
         "Price": "$80.5",
         "Description": "This is a description for Product 48, providing usage instructions and benefits.",
-        "High-resolution Images": "https://i.ibb.co.com/7yrwrQt/shop-img-20.jpg",
+        "Image": "https://i.ibb.co.com/7yrwrQt/shop-img-20.jpg",
         "Customer Reviews and Ratings": {
             "Reviews": [
                 "Review 1 for Product 48",
@@ -968,7 +968,7 @@
         "Ingredients": "Ingredient 49, Ingredient 50, Ingredient 51",
         "Price": "$82.0",
         "Description": "This is a description for Product 49, providing usage instructions and benefits.",
-        "High-resolution Images": "https://i.ibb.co.com/RBTrJNQ/112047178527-OF-F.jpg",
+        "Image": "https://i.ibb.co.com/RBTrJNQ/112047178527-OF-F.jpg",
         "Customer Reviews and Ratings": {
             "Reviews": [
                 "Review 1 for Product 49",
@@ -988,7 +988,7 @@
         "Ingredients": "Ingredient 50, Ingredient 51, Ingredient 52",
         "Price": "$83.5",
         "Description": "This is a description for Product 50, providing usage instructions and benefits.",
-        "High-resolution Images": "https://i.ibb.co.com/QJr7wjj/shop-list-59-600x434.jpg",
+        "Image": "https://i.ibb.co.com/b2T97gK/GWA-Burgundy-Brush-Set2.jpg",
         "Customer Reviews and Ratings": {
             "Reviews": [
                 "Review 1 for Product 50",
@@ -1008,7 +1008,7 @@
         "Ingredients": "Ingredient 51, Ingredient 52, Ingredient 53",
         "Price": "$85.0",
         "Description": "This is a description for Product 51, providing usage instructions and benefits.",
-        "High-resolution Images": "https://i.ibb.co.com/mhr4ntN/shop-img-019.jpg",
+        "Image": "https://i.ibb.co.com/mhr4ntN/shop-img-019.jpg",
         "Customer Reviews and Ratings": {
             "Reviews": [
                 "Review 1 for Product 51",
@@ -1028,7 +1028,7 @@
         "Ingredients": "Ingredient 52, Ingredient 53, Ingredient 54",
         "Price": "$86.5",
         "Description": "This is a description for Product 52, providing usage instructions and benefits.",
-        "High-resolution Images": "https://i.ibb.co.com/bPJ0fKL/product-06-330x440.jpg",
+        "Image": "https://i.ibb.co.com/bPJ0fKL/product-06-330x440.jpg",
         "Customer Reviews and Ratings": {
             "Reviews": [
                 "Review 1 for Product 52",
@@ -1048,7 +1048,7 @@
         "Ingredients": "Ingredient 53, Ingredient 54, Ingredient 55",
         "Price": "$88.0",
         "Description": "This is a description for Product 53, providing usage instructions and benefits.",
-        "High-resolution Images": "https://i.ibb.co.com/dJgXpsN/product-12-330x440.jpg",
+        "Image": "https://i.ibb.co.com/dJgXpsN/product-12-330x440.jpg",
         "Customer Reviews and Ratings": {
             "Reviews": [
                 "Review 1 for Product 53",
@@ -1068,7 +1068,7 @@
         "Ingredients": "Ingredient 54, Ingredient 55, Ingredient 56",
         "Price": "$89.5",
         "Description": "This is a description for Product 54, providing usage instructions and benefits.",
-        "High-resolution Images": "https://i.ibb.co.com/9vfb4pK/product-08-330x440.jpg",
+        "Image": "https://i.ibb.co.com/9vfb4pK/product-08-330x440.jpg",
         "Customer Reviews and Ratings": {
             "Reviews": [
                 "Review 1 for Product 54",
