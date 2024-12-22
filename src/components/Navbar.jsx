@@ -10,6 +10,7 @@ const Navbar = () => {
        <div className="flex flex-col justify-center items-center gap-5">
          <div className="navbar bg-base-100">
         <div className="navbar-start">
+         
         <div className="dropdown">
   <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
     <svg
@@ -76,7 +77,8 @@ const Navbar = () => {
           
         </div>
         <div className="flex flex-col justify-center items-center gap-6 navbar-center">
-            <div>
+            <div className="flex flex-row justify-center items-center gap-5">
+                <img className="h-[10vh] hidden md:block" src="https://i.ibb.co.com/NyhQFBj/women-beauty-face-silhouette-illustration-vector.jpg" alt="" />
                 <p className="uppercase text-black font-bold lg:text-3xl text-xl">Bloom cosmetics</p>
             </div>
         <div className="navbar-center hidden lg:flex">

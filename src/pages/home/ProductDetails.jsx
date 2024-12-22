@@ -34,7 +34,7 @@ const ProductDetails = ({ product })  => {
             </div>
             <p className="text-neutral-500">{Description}</p>
             <p className="text-black font-bold">Quantity :</p>
-           <div className="flex flex-row justify-start items-start gap-5 pb-4">
+           <div className="flex md:flex-row flex-col justify-start items-start gap-5 pb-4">
              {/* div 1 */}
              <div>
                 {/* quantity box */}
