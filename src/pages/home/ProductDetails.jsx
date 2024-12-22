@@ -6,8 +6,6 @@ const ProductDetails = ({ product })  => {
         ProductName,
         Brand,
         Category,
-        Feature,
-        NewArrival,
         Ingredients,
         Price,
         Description,
