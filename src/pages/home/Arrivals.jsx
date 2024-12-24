@@ -14,13 +14,9 @@ const Arrivals = ({ setSelectedProduct }) => {
   const[newArrivals,setNewArrivals]=useState([]);
   
   useEffect(()=>{
-    fetch('50_products_with_ids.json')
+    fetch(`http://localhost:5000/newArrivalProducts`)
     .then(res=> res.json())
-    .then(data=>
-      {
-        const filteredData = data.filter(product => product.NewArrival === "yes");
-      setNewArrivals(filteredData)
-      })
+    .then(data=>setNewArrivals(data))
   },[])
     return (
         <div className="mt-20 relative">
