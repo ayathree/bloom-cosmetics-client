@@ -1,6 +1,16 @@
+import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
+
 
 
 const Category = () => {
+    const[categoryProducts,setCategoryProducts]=useState([]);
+      
+      useEffect(()=>{
+        fetch(`http://localhost:5000/categories`)
+        .then(res=> res.json())
+        .then(data=>setCategoryProducts(data))
+      },[])
     return (
         <div className="mt-20">
             <div>
@@ -11,28 +21,25 @@ const Category = () => {
                 <p className="text-center mb-5 font-semibold text-4xl uppercase ">Shop by Categories</p>
                 <p className="text-center mb-16 text-lg">Because You Need Time for Yourself. <br /> Blend Beauty in You</p>
             </div>
+            
             <div className="grid lg:grid-cols-3 grid-cols-1 md:grid-cols-2 grid-rows-4 lg:grid-rows-2 md:grid-rows-3 justify-center items-center gap-4">
-                <div className=" lg:row-span-2 relative overflow-hidden group">
-                    <img src="https://i.ibb.co.com/rkQNHCr/Home2-blog-single-img-1.jpg" className="lg:w-full lg:h-[105vh] object-cover h-[450px] transform transition-transform duration-300 hover:scale-110" alt="" />
+            {categoryProducts.map((category) => (
+                <div
+                    key={category.id}
+                    className={`${category.rowSpan} relative overflow-hidden group`}
+                >
+                    <img
+                        src={category.image}
+                        className={`${category.heightClass} lg:w-full object-cover h-[450px] transform transition-transform duration-300 hover:scale-110`}
+                        alt=""
+                    />
                     <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-transparent via-white/30 to-transparent opacity-0 group-hover:opacity-100 group-hover:translate-x-0 translate-x-full transition-all duration-500"></div>
-                    <button className="text-black bg-white px-6 py-2 border-black border-2 bottom-12 left-24 right-24 absolute font-bold hover:bg-black hover:text-white">MakeUps</button>
+                    <Link to={`/categorize/${category.name}`}><button className="text-black bg-white px-6 py-2 border-black border-2 bottom-12 left-24 right-24 absolute font-bold hover:bg-black hover:text-white">
+                        {category.name}
+                    </button></Link>
                 </div>
-                <div className="relative overflow-hidden group">
-                    <img src="https://i.ibb.co.com/VMt0wN6/banner-18.jpg" className="lg:h-[50vh] lg:w-full object-cover h-[450px] transform transition-transform duration-300 hover:scale-110" alt="" />
-                    <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-transparent via-white/30 to-transparent opacity-0 group-hover:opacity-100 group-hover:translate-x-0 translate-x-full transition-all duration-500"></div>
-                    <button className="text-black bg-white px-6 py-2 border-black border-2 bottom-12 left-24 right-24 absolute font-bold hover:bg-black hover:text-white">SkinCare</button>
-                </div>
-                <div className="relative overflow-hidden group">
-                    <img src="https://i.ibb.co.com/Jr8pnXj/banner-15.jpg" className="lg:h-[50vh] lg:w-full object-cover h-[450px] transform transition-transform duration-300 hover:scale-110" alt="" />
-                    <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-transparent via-white/30 to-transparent opacity-0 group-hover:opacity-100 group-hover:translate-x-0 translate-x-full transition-all duration-500"></div>
-                    <button className="text-black bg-white px-6 py-2 border-black border-2 bottom-12 left-24 right-24 absolute font-bold hover:bg-black hover:text-white">BodyCare</button>
-                </div>
-                <div className="lg:col-span-2 relative overflow-hidden group">
-                    <img src="https://i.ibb.co.com/DMGKZk5/banner-17.jpg" className="lg:h-[50vh] lg:w-full object-cover h-[450px] transform transition-transform duration-300 hover:scale-110" alt="" />
-                    <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-transparent via-white/30 to-transparent opacity-0 group-hover:opacity-100 group-hover:translate-x-0 translate-x-full transition-all duration-500"></div>
-                    <button className="text-black bg-white px-6 py-2 border-black border-2  bottom-12 lg:left-72 lg:right-72  left-24 right-24 absolute font-bold hover:bg-black hover:text-white">HairCare</button>
-                </div>
-            </div>
+            ))}
+        </div>
             
         </div>
     );
