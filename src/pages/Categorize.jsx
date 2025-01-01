@@ -26,8 +26,9 @@ const Categorize = () => {
                 {currentItems.map((item) => (
                     <div
                         key={item.id}
-                        className="overflow-hidden group relative shadow-2xl"
+                       
                     >
+                        <div  className="overflow-hidden group relative shadow-2xl">
                         <img
                             src={item.Image}
                             alt=""
@@ -37,7 +38,12 @@ const Categorize = () => {
                         <button className="text-black bg-white px-6 py-2  border-black border-2 hover:border-white bottom-12 lg:left-24 lg:right-24 left-16 right-16 absolute lg:font-bold hover:bg-[#047857] hover:text-white uppercase opacity-0 group-hover:opacity-100 group-hover:bottom-12 transition-all duration-1000 ease-in-out ">
                             details
                         </button>
+                        </div>
+                        <p className="text-center mt-8 text-xl font-semibold">{item.Price}</p>
+                        <p className="text-center  font-semibold">{item.ProductName}</p>
+                        
                     </div>
+                    
                 ))}
             </div>
 
