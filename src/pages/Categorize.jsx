@@ -42,12 +42,13 @@ const Categorize = () => {
                             item.NewArrival == "yes" && <p className="absolute bg-yellow-400 text-white p-1 px-3 top-4 left-3 font-semibold ">New</p>
                         }
                         
-                        <Link to={'/detailsDescription'}><button className="text-black bg-white px-6 py-2  border-black border-2 hover:border-white bottom-12  left-16 right-16 absolute lg:font-bold hover:bg-[#047857] hover:text-white uppercase opacity-0 group-hover:opacity-100 group-hover:bottom-12 transition-all duration-1000 ease-in-out ">
+                        <Link to={`/detailsDescription/${item._id}`}><button className="text-black bg-white px-6 py-2  border-black border-2 hover:border-white bottom-12  left-16 right-16 absolute lg:font-bold hover:bg-[#047857] hover:text-white uppercase opacity-0 group-hover:opacity-100 group-hover:bottom-12 transition-all duration-1000 ease-in-out ">
                             details
                         </button></Link>
                         </div>
                         <p className="text-center mt-8 text-xl font-semibold">{item.Price}</p>
                         <p className="text-center  font-semibold">{item.ProductName}</p>
+                        
                         <div  className="flex flex-row justify-center items-center gap-2">
                             <p>Ratings: </p>
                             <p className="font-semibold text-[#047857]">{item.CustomerReviewsAndRatings.Ratings}</p>

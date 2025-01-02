@@ -1,9 +1,11 @@
+import { useLoaderData } from "react-router-dom";
 
 
 const DetailsDescription = () => {
+    const item = useLoaderData();
     return (
         <div>
-            hi
+            <img src={item.Image} alt="" />
             
         </div>
     );
