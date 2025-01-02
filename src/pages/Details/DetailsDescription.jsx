@@ -1,30 +1,27 @@
 import { useState } from "react";
+import { BsStarFill } from "react-icons/bs";
 import Rating from "react-rating";
 
-const ProductDetails = ({ product })  => {
+import { useLoaderData } from "react-router-dom";
+
+
+const DetailsDescription = () => {
+    const item = useLoaderData();
     const [quantity, setQuantity] = useState(1);
-    const {
-        ProductName,
-        Brand,
-        Category,
-        Ingredients,
-        Price,
-        Description,
-        Image,
-        CustomerReviewsAndRatings,
-      } = product;
     return (
-        <div className="flex lg:flex-row flex-col justify-center items-start gap-10">
-        <div className="w-full">
-            <img className="" src={Image} alt="" />
+        <div>
+            {/* first */}
+            <div className="flex lg:flex-row flex-col justify-center items-start gap-10 mt-20">
+        <div className="w-full flex justify-center">
+            <img className="border-2 border-gray-300 h-[100vh]" src={item.Image} alt="" />
         </div>
         <div className="space-y-2 w-full">
-        <p className=' bg-[#047857]  text-white p-1 px-2 font-semibold inline-block'>{Price}</p>
-            <p className="text-black font-bold uppercase text-2xl">{ProductName}</p>
+        <p className=' bg-[#047857]  text-white p-1 px-2 font-semibold inline-block'>{item.Price}</p>
+            <p className="text-black font-bold uppercase text-2xl">{item.ProductName}</p>
             <div className="flex flex-row justify-start items-start gap-2 ">
-            <p className="text-black font-bold flex flex-row justify-center items-center gap-2">{CustomerReviewsAndRatings.Ratings} <div className="rating">
+            <p className="text-black font-bold flex flex-row justify-center items-center gap-2">{item.CustomerReviewsAndRatings.Ratings} <div className="rating">
   <Rating
-    initialRating={CustomerReviewsAndRatings.Ratings}
+    initialRating={item.CustomerReviewsAndRatings.Ratings}
     readonly
     fullSymbol={<span className="text-[#047857] text-2xl">★</span>}
     emptySymbol={<span className="text-black text-2xl">☆</span>}
@@ -34,7 +31,7 @@ const ProductDetails = ({ product })  => {
 <a href="" className="hover:underline">Read the Reviews</a>
             
             </div>
-            <p className="text-neutral-500">{Description}</p>
+            <p className="text-neutral-500">{item.Description}</p>
             <p className="text-black font-bold">Quantity :</p>
            <div className="flex md:flex-row flex-col justify-start items-start gap-5 pb-4">
              {/* div 1 */}
@@ -75,18 +72,27 @@ const ProductDetails = ({ product })  => {
              </div>
            </div>
            
+           <button className="py-5 flex justify-center items-center gap-2 hover:underline font-bold text-xl"><BsStarFill className="text-[#047857]"></BsStarFill>Add to wishlist</button>
           
+           <div className="py-5">
            <p className="text-black font-bold">Ingredients :</p>
-           <p className="pb-2">{Ingredients}</p>
-           <hr className="border-1 border-[#047857] pb-2 " />
-           <p className="text-black font-bold">Brand : <span className="font-normal">{Brand}</span></p>
-           <p className="text-black font-bold">Category : <span className="font-normal" >{Category}</span></p>
+           <p className="pb-2">{item.Ingredients}</p>
+           </div>
+           <hr className="border-1 border-[#047857] py-2 mt-5" />
+           <p className="text-black font-bold">Brand : <span className="font-normal">{item.Brand}</span></p>
+           <p className="text-black font-bold">Category : <span className="font-normal" >{item.Category}</span></p>
 
-          
+           
+           
         </div>
     </div>
-    
+    {/* second */}
+    <div>
+       <p className="uppercase font-semibold text-4xl text-center mt-20">You may also like</p>
+       
+    </div>
+        </div>
     );
 };
 
-export default ProductDetails;
+export default DetailsDescription;

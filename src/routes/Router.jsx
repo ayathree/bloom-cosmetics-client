@@ -2,7 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import Root from "../pages/Root";
 import Home from "../pages/home/Home";
 import Categorize from "../pages/Categorize";
-import DetailsDescription from "../pages/DetailsDescription";
+import DetailsDescription from "../pages/Details/DetailsDescription";
 
 
 export const Router = createBrowserRouter ([
