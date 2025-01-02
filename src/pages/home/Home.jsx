@@ -42,8 +42,8 @@ const Home = () => {
       )}
            <Slider></Slider>
            <Featured></Featured>
-           <Category></Category>
            <Arrivals setSelectedProduct={setSelectedProduct}></Arrivals>
+           <Category></Category>
            <Subscription></Subscription>
         </div>
     );

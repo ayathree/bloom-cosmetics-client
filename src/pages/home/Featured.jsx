@@ -3,6 +3,10 @@
 const Featured = () => {
     return (
         <div className="mt-20">
+             <div className="flex justify-center items-center mb-4">
+
+<img className="h-[100px]" src="https://i.ibb.co.com/gzmxyFJ/6075201.png" alt=""  />
+</div>
             <div>
                 <p className="text-center mb-5 font-semibold text-4xl uppercase ">Featured Collections</p>
                 <p className="text-center mb-16 text-lg">Best Products, Everyone's Favorite.</p>

@@ -22,7 +22,7 @@ const Category = () => {
                 <p className="text-center mb-16 text-lg">Because You Need Time for Yourself. <br /> Blend Beauty in You</p>
             </div>
             
-            <div className="grid lg:grid-cols-2 grid-cols-1 md:grid-cols-2 grid-rows-4 lg:grid-rows-2 md:grid-rows-2 justify-center items-center gap-4">
+            <div className="grid lg:grid-cols-2 grid-cols-1 md:grid-cols-2 grid-rows-4 lg:grid-rows-2 md:grid-rows-2 justify-center items-center gap-10">
             {categoryProducts.map((category) => (
                 <div
                     key={category.id}
