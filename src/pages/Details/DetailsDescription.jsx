@@ -3,6 +3,7 @@ import { BsStarFill } from "react-icons/bs";
 import Rating from "react-rating";
 
 import { useLoaderData } from "react-router-dom";
+import AlsoLike from "./AlsoLike";
 
 
 const DetailsDescription = () => {
@@ -88,7 +89,8 @@ const DetailsDescription = () => {
     </div>
     {/* second */}
     <div>
-       <p className="uppercase font-semibold text-4xl text-center mt-20">You may also like</p>
+       <p className="uppercase font-semibold text-4xl text-center m-20">You may also like</p>
+       <AlsoLike item={item}></AlsoLike>
        
     </div>
         </div>
