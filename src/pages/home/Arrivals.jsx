@@ -55,7 +55,7 @@ const Arrivals = ({ setSelectedProduct }) => {
         }}
       >
         {
-          newArrivals.map((product)=>(
+          newArrivals.slice(0,10).map((product)=>(
             <SwiperSlide key={product.id} ><div className='bg-slate-100 lg:h-[50vh] w-full h-[100vh] relative group shadow-lg'>
             <img className='absolute' src={product.Image} alt="" />
             <div className='absolute bg-[#047857]  text-white p-1 px-3 top-4 left-3 font-semibold'><p>{product.Price}</p></div>
