@@ -4,6 +4,7 @@ import Rating from "react-rating";
 
 import { useLoaderData } from "react-router-dom";
 import AlsoLike from "./AlsoLike";
+import CustomerReview from "./CustomerReview";
 
 
 const DetailsDescription = () => {
@@ -88,10 +89,18 @@ const DetailsDescription = () => {
         </div>
     </div>
     {/* second */}
+    <hr className="mt-20"/>
     <div>
-       <p className="uppercase font-semibold text-4xl text-center m-20">You may also like</p>
+       <p className="uppercase font-semibold md:text-4xl text-xl text-center m-20">You may also like</p>
        <AlsoLike item={item}></AlsoLike>
        
+    </div>
+    <hr className="mt-20" />
+    <div>
+    <p className="uppercase font-semibold md:text-4xl text-xl text-center m-20">Customer Review</p>
+    <CustomerReview item={item}></CustomerReview>
+
+
     </div>
         </div>
     );
