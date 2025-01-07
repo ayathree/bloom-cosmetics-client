@@ -4,6 +4,7 @@ import { FiShoppingBag } from "react-icons/fi";
 import { GoPerson } from "react-icons/go";
 import { MdOutlineDarkMode } from "react-icons/md";
 import { RiSunLine } from "react-icons/ri";
+import { Link } from "react-router-dom";
 
 
 const Navbar = () => {
@@ -36,7 +37,7 @@ const Navbar = () => {
     
     className="menu menu-sm dropdown-content bg-base-100 rounded-box  mt-3 w-52 p-2 shadow z-10"
   >
-    <li className="p-2 font-semibold uppercase">Home</li>
+    <Link to={'/'}><li className="p-2 font-semibold uppercase">Home</li></Link>
 
     {/* Shop Dropdown */}
     <li>
@@ -44,14 +45,14 @@ const Navbar = () => {
         <summary className="p-2 font-semibold uppercase cursor-pointer">Shop</summary>
         <ul className="mt-2  p-2   font-thin">
           <li>
-            <a href="#" className="block px-4 py-2 hover:bg-gray-200">
+            <Link to={'/ourCollection'}><a href="#" className="block px-4 py-2 hover:bg-gray-200">
               Our Collection
-            </a>
+            </a></Link>
           </li>
           <li>
-            <a href="#" className="block px-4 py-2 hover:bg-gray-200">
+            <Link to={'/brandList'}><a href="#" className="block px-4 py-2 hover:bg-gray-200">
               Brand List
-            </a>
+            </a></Link>
           </li>
         </ul>
       </details>
@@ -63,14 +64,14 @@ const Navbar = () => {
         <summary className="p-2 font-semibold uppercase cursor-pointer">Pages</summary>
         <ul className="mt-2 font-thin">
           <li>
-            <a href="#" className="block px-4 py-2 hover:bg-gray-200">
+            <Link to={'/aboutUs'}><a href="#" className="block px-4 py-2 hover:bg-gray-200">
               About Us
-            </a>
+            </a></Link>
           </li>
           <li>
-            <a href="#" className="block px-4 py-2 hover:bg-gray-200">
+            <Link to={'/contactUs'}><a href="#" className="block px-4 py-2 hover:bg-gray-200">
               Contact Us
-            </a>
+            </a></Link>
           </li>
         </ul>
       </details>
@@ -89,15 +90,15 @@ const Navbar = () => {
             </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="flex flex-row justify-center items-center gap-6 px-1 font-bold uppercase ">
-            <button className="p-2 font-semibold uppercase ">home</button>
+            <Link to={'/'}><button className="p-2 font-semibold uppercase ">home</button></Link>
             <li className="relative group">
   <details><summary className="p-2 font-semibold uppercase ">Shop</summary></details>
   <ul className="absolute hidden group-hover:block bg-white shadow-lg p-2  font-thin z-10">
     <li>
-      <a href="#" className="block px-4 py-2 hover:bg-gray-200 ">Our Collection</a>
+      <Link to={'/ourCollection'}><a  className="block px-4 py-2 hover:bg-gray-200 ">Our Collection</a></Link>
     </li>
     <li>
-      <a href="#" className="block px-4 py-2 hover:bg-gray-200">Brand List</a>
+     <Link to={'/brandList'}> <a  className="block px-4 py-2 hover:bg-gray-200">Brand List</a></Link>
     </li>
   </ul>
 </li>
@@ -106,10 +107,10 @@ const Navbar = () => {
 <details><summary className="p-2 font-semibold uppercase ">pages</summary></details>
   <ul className="absolute hidden group-hover:block bg-white shadow-lg p-2  font-thin z-10">
     <li>
-      <a href="#" className="block px-4 py-2 hover:bg-gray-200 ">About Us</a>
+     <Link to={'/aboutUs'}> <a href="#" className="block px-4 py-2 hover:bg-gray-200 ">About Us</a></Link>
     </li>
     <li>
-      <a href="#" className="block px-4 py-2 hover:bg-gray-200">Contact Us</a>
+      <Link to={'/contactUs'}><a href="#" className="block px-4 py-2 hover:bg-gray-200">Contact Us</a></Link>
     </li>
   </ul>
 </li>
