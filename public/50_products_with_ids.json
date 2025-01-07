@@ -1,20 +1,28 @@
 [
    
     {
-        "name": "makeup",
-        "image": "https://i.ibb.co.com/rkQNHCr/Home2-blog-single-img-1.jpg"
+        "name": "lipstick",
+        "image": "https://i.ibb.co.com/qY9pDqG/Blog-Sidebar-Read-next-post-01.jpg"
     },
     {
-        "name": "skincare",
-        "image": "https://i.ibb.co.com/VMt0wN6/banner-18.jpg"
+        "name": "eyeshadow",
+        "image": "https://i.ibb.co.com/87hqdJw/port-featured-img-15.jpg"
     },
     {
-        "name": "bodycare",
-        "image": "https://i.ibb.co.com/Jr8pnXj/banner-15.jpg"
+        "name": "foundation",
+        "image": "https://i.ibb.co.com/RbwJtLS/162044866-494105921752427-2053151397308435679-n.jpg"
     },
     {
-        "name": "haircare",
-        "image": "https://i.ibb.co.com/DMGKZk5/banner-17.jpg"
+        "name": "mascara",
+        "image": "https://i.ibb.co.com/zQ93X2S/drop-down-img-1.jpg"
+    },
+    {
+        "name": "bodymist",
+        "image": "https://i.ibb.co.com/FwMFzSP/161007137-818106462117352-2772674974349771071-n.jpg"
+    },
+    {
+        "name": "makeup kit",
+        "image": "https://i.ibb.co.com/x6NBH3K/Home1-blog-list-single-2-650x867.jpg"
     }
    
 ]
