@@ -1,28 +1,214 @@
 [
-   
     {
-        "name": "lipstick",
-        "image": "https://i.ibb.co.com/qY9pDqG/Blog-Sidebar-Read-next-post-01.jpg"
+      "_id": "676ad18e2058868bdf05d46d",
+      "ProductName": "Product 25",
+      "Brand": "minimog",
+      "Category": "skincare",
+      "Feature": "non-cosmetics",
+      "NewArrival": "yes",
+      "Ingredients": "Ingredient 25, Ingredient 26, Ingredient 27",
+      "Price": "$46.0",
+      "Description": "This is a description for Product 25, providing usage instructions and benefits.",
+      "Image": "https://i.ibb.co.com/bPJ0fKL/product-06-330x440.jpg",
+      "CustomerReviewsAndRatings": {
+        "Reviews": [
+          "Review 1 for Product 25",
+          "Review 2 for Product 25",
+          "Review 3 for Product 25"
+        ],
+        "Ratings": 3
+      },
+      "ID": 25
     },
     {
-        "name": "eyeshadow",
-        "image": "https://i.ibb.co.com/87hqdJw/port-featured-img-15.jpg"
+      "_id": "676ad18e2058868bdf05d478",
+      "ProductName": "Product 36",
+      "Brand": "alleana",
+      "Category": "haircare",
+      "Feature": "non-cosmetics",
+      "NewArrival": "no",
+      "Ingredients": "Ingredient 36, Ingredient 37, Ingredient 38",
+      "Price": "$62.5",
+      "Description": "This is a description for Product 36, providing usage instructions and benefits.",
+      "Image": "https://i.ibb.co.com/9vfb4pK/product-08-330x440.jpg",
+      "CustomerReviewsAndRatings": {
+        "Reviews": [
+          "Review 1 for Product 36",
+          "Review 2 for Product 36",
+          "Review 3 for Product 36"
+        ],
+        "Ratings": 4
+      },
+      "ID": 36
     },
     {
-        "name": "foundation",
-        "image": "https://i.ibb.co.com/RbwJtLS/162044866-494105921752427-2053151397308435679-n.jpg"
+      "_id": "676ad18e2058868bdf05d455",
+      "ProductName": "Product 1",
+      "Brand": "allaz",
+      "Category": "makeup",
+      "Feature": "mascara",
+      "NewArrival": "yes",
+      "Ingredients": "Ingredient 1, Ingredient 2, Ingredient 3",
+      "Price": "$10.0",
+      "Description": "This is a description for Product 1, providing usage instructions and benefits.",
+      "Image": "https://i.ibb.co.com/7Jj3fN0/shop-test-img-01.jpg",
+      "CustomerReviewsAndRatings": {
+        "Reviews": [
+          "Review 1 for Product 1",
+          "Review 2 for Product 1",
+          "Review 3 for Product 1"
+        ],
+        "Ratings": 3
+      },
+      "ID": 1
     },
     {
-        "name": "mascara",
-        "image": "https://i.ibb.co.com/zQ93X2S/drop-down-img-1.jpg"
+      "_id": "676ad18e2058868bdf05d47f",
+      "ProductName": "Product 43",
+      "Brand": "urban",
+      "Category": "skincare",
+      "Feature": "non-cosmetics",
+      "NewArrival": "yes",
+      "Ingredients": "Ingredient 43, Ingredient 44, Ingredient 45",
+      "Price": "$73.0",
+      "Description": "This is a description for Product 43, providing usage instructions and benefits.",
+      "Image": "https://i.ibb.co.com/bPJ0fKL/product-06-330x440.jpg",
+      "CustomerReviewsAndRatings": {
+        "Reviews": [
+          "Review 1 for Product 43",
+          "Review 2 for Product 43",
+          "Review 3 for Product 43"
+        ],
+        "Ratings": 3
+      },
+      "ID": 43
     },
     {
-        "name": "bodymist",
-        "image": "https://i.ibb.co.com/FwMFzSP/161007137-818106462117352-2772674974349771071-n.jpg"
+      "_id": "676ad18e2058868bdf05d486",
+      "ProductName": "Product 50",
+      "Brand": "chloe",
+      "Category": "makeup",
+      "Feature": "makeup kit",
+      "NewArrival": "no",
+      "Ingredients": "Ingredient 50, Ingredient 51, Ingredient 52",
+      "Price": "$83.5",
+      "Description": "This is a description for Product 50, providing usage instructions and benefits.",
+      "Image": "https://i.ibb.co.com/b2T97gK/GWA-Burgundy-Brush-Set2.jpg",
+      "CustomerReviewsAndRatings": {
+        "Reviews": [
+          "Review 1 for Product 50",
+          "Review 2 for Product 50",
+          "Review 3 for Product 50"
+        ],
+        "Ratings": 3.5
+      },
+      "ID": 50
     },
     {
-        "name": "makeup kit",
-        "image": "https://i.ibb.co.com/x6NBH3K/Home1-blog-list-single-2-650x867.jpg"
+      "_id": "676ad18e2058868bdf05d46e",
+      "ProductName": "Product 26",
+      "Brand": "stila",
+      "Category": "bodycare",
+      "Feature": "non-cosmetics",
+      "NewArrival": "no",
+      "Ingredients": "Ingredient 26, Ingredient 27, Ingredient 28",
+      "Price": "$47.5",
+      "Description": "This is a description for Product 26, providing usage instructions and benefits.",
+      "Image": "https://i.ibb.co.com/dJgXpsN/product-12-330x440.jpg",
+      "CustomerReviewsAndRatings": {
+        "Reviews": [
+          "Review 1 for Product 26",
+          "Review 2 for Product 26",
+          "Review 3 for Product 26"
+        ],
+        "Ratings": 3.5
+      },
+      "ID": 26
+    },
+    {
+      "_id": "676ad18e2058868bdf05d479",
+      "ProductName": "Product 37",
+      "Brand": "galiche",
+      "Category": "makeup",
+      "Feature": "mascara",
+      "NewArrival": "yes",
+      "Ingredients": "Ingredient 37, Ingredient 38, Ingredient 39",
+      "Price": "$64.0",
+      "Description": "This is a description for Product 37, providing usage instructions and benefits.",
+      "Image": "https://i.ibb.co.com/7Jj3fN0/shop-test-img-01.jpg",
+      "CustomerReviewsAndRatings": {
+        "Reviews": [
+          "Review 1 for Product 37",
+          "Review 2 for Product 37",
+          "Review 3 for Product 37"
+        ],
+        "Ratings": 3
+      },
+      "ID": 37
+    },
+    {
+      "_id": "676ad18e2058868bdf05d475",
+      "ProductName": "Product 33",
+      "Brand": "revlon",
+      "Category": "makeup",
+      "Feature": "foundation",
+      "NewArrival": "yes",
+      "Ingredients": "Ingredient 33, Ingredient 34, Ingredient 35",
+      "Price": "$58.0",
+      "Description": "This is a description for Product 33, providing usage instructions and benefits.",
+      "Image": "https://i.ibb.co.com/mhr4ntN/shop-img-019.jpg",
+      "CustomerReviewsAndRatings": {
+        "Reviews": [
+          "Review 1 for Product 33",
+          "Review 2 for Product 33",
+          "Review 3 for Product 33"
+        ],
+        "Ratings": 4
+      },
+      "ID": 33
+    },
+    {
+      "_id": "676ad18e2058868bdf05d47a",
+      "ProductName": "Product 38",
+      "Brand": "emility",
+      "Category": "makeup",
+      "Feature": "eyeshadow",
+      "NewArrival": "no",
+      "Ingredients": "Ingredient 38, Ingredient 39, Ingredient 40",
+      "Price": "$65.5",
+      "Description": "This is a description for Product 38, providing usage instructions and benefits.",
+      "Image": "https://i.ibb.co.com/sbrP2s5/shop-img-53.jpg",
+      "CustomerReviewsAndRatings": {
+        "Reviews": [
+          "Review 1 for Product 38",
+          "Review 2 for Product 38",
+          "Review 3 for Product 38"
+        ],
+        "Ratings": 3
+      },
+      "ID": 38
+    },
+    {
+      "_id": "676ad18e2058868bdf05d481",
+      "ProductName": "Product 40",
+      "Brand": "bella",
+      "Category": "makeup",
+      "Feature": "lipstick",
+      "NewArrival": "yes",
+      "Ingredients": "Ingredient 40, Ingredient 41, Ingredient 42",
+      "Price": "$75.0",
+      "Description": "This is a description for Product 40, providing usage instructions and benefits.",
+      "Image": "https://i.ibb.co.com/b1P2s5/shop-img-54.jpg",
+      "CustomerReviewsAndRatings": {
+        "Reviews": [
+          "Review 1 for Product 40",
+          "Review 2 for Product 40",
+          "Review 3 for Product 40"
+        ],
+        "Ratings": 4
+      },
+      "ID": 40
     }
-   
-]
+  ]
+  
+  
