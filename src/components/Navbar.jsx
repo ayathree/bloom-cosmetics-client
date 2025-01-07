@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { FaRegStar } from "react-icons/fa";
 import { FiShoppingBag } from "react-icons/fi";
 import { GoPerson } from "react-icons/go";
@@ -6,13 +7,14 @@ import { RiSunLine } from "react-icons/ri";
 
 
 const Navbar = () => {
+  const[showDropdown, setShowDropdown]=useState(false)
     return (
        <div className="flex flex-col justify-center items-center gap-5">
          <div className="navbar bg-base-100">
         <div className="navbar-start">
          
         <div className="dropdown">
-  <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+  <button  onClick={() => setShowDropdown((prev) => !prev)} className="btn btn-ghost lg:hidden">
     <svg
       xmlns="http://www.w3.org/2000/svg"
       className="h-5 w-5"
@@ -27,10 +29,12 @@ const Navbar = () => {
         d="M4 6h16M4 12h8m-8 6h16"
       />
     </svg>
-  </div>
-  <ul
-    tabIndex={0}
-    className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+  </button>
+ {
+  showDropdown && (
+    <ul
+    
+    className="menu menu-sm dropdown-content bg-base-100 rounded-box  mt-3 w-52 p-2 shadow z-10"
   >
     <li className="p-2 font-semibold uppercase">Home</li>
 
@@ -38,15 +42,15 @@ const Navbar = () => {
     <li>
       <details className="group">
         <summary className="p-2 font-semibold uppercase cursor-pointer">Shop</summary>
-        <ul className="mt-2 bg-white shadow-lg p-2 rounded-lg lowercase font-thin">
+        <ul className="mt-2  p-2   font-thin">
           <li>
             <a href="#" className="block px-4 py-2 hover:bg-gray-200">
-              Submenu 1
+              Our Collection
             </a>
           </li>
           <li>
             <a href="#" className="block px-4 py-2 hover:bg-gray-200">
-              Submenu 2
+              Brand List
             </a>
           </li>
         </ul>
@@ -57,21 +61,23 @@ const Navbar = () => {
     <li>
       <details className="group">
         <summary className="p-2 font-semibold uppercase cursor-pointer">Pages</summary>
-        <ul className="mt-2 bg-white shadow-lg p-2 rounded-lg lowercase font-thin">
+        <ul className="mt-2 font-thin">
           <li>
             <a href="#" className="block px-4 py-2 hover:bg-gray-200">
-              Submenu 1
+              About Us
             </a>
           </li>
           <li>
             <a href="#" className="block px-4 py-2 hover:bg-gray-200">
-              Submenu 2
+              Contact Us
             </a>
           </li>
         </ul>
       </details>
     </li>
   </ul>
+  )
+ }
 </div>
 
           
@@ -86,24 +92,24 @@ const Navbar = () => {
             <button className="p-2 font-semibold uppercase ">home</button>
             <li className="relative group">
   <details><summary className="p-2 font-semibold uppercase ">Shop</summary></details>
-  <ul className="absolute hidden group-hover:block bg-white shadow-lg p-2 lowercase font-thin">
+  <ul className="absolute hidden group-hover:block bg-white shadow-lg p-2  font-thin z-10">
     <li>
-      <a href="#" className="block px-4 py-2 hover:bg-gray-200 ">Submenu 1</a>
+      <a href="#" className="block px-4 py-2 hover:bg-gray-200 ">Our Collection</a>
     </li>
     <li>
-      <a href="#" className="block px-4 py-2 hover:bg-gray-200">Submenu 2</a>
+      <a href="#" className="block px-4 py-2 hover:bg-gray-200">Brand List</a>
     </li>
   </ul>
 </li>
 
 <li className="relative group">
 <details><summary className="p-2 font-semibold uppercase ">pages</summary></details>
-  <ul className="absolute hidden group-hover:block bg-white shadow-lg p-2 lowercase font-thin">
+  <ul className="absolute hidden group-hover:block bg-white shadow-lg p-2  font-thin z-10">
     <li>
-      <a href="#" className="block px-4 py-2 hover:bg-gray-200 ">Submenu 1</a>
+      <a href="#" className="block px-4 py-2 hover:bg-gray-200 ">About Us</a>
     </li>
     <li>
-      <a href="#" className="block px-4 py-2 hover:bg-gray-200">Submenu 2</a>
+      <a href="#" className="block px-4 py-2 hover:bg-gray-200">Contact Us</a>
     </li>
   </ul>
 </li>
