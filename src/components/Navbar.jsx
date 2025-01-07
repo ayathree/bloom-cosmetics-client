@@ -10,7 +10,8 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   const[showDropdown, setShowDropdown]=useState(false)
     return (
-       <div className="flex flex-col justify-center items-center gap-5">
+      <div>
+         <div className="flex flex-col justify-center items-center gap-5">
          <div className="navbar bg-base-100">
         <div className="navbar-start">
          
@@ -184,7 +185,10 @@ const Navbar = () => {
 </label> 
 
       </div>
+      
        </div>
+       <hr className="mt-6 border-2 border-[#047857]" />
+      </div>
     );
 };
 
