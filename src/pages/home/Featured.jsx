@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 
 const Featured = () => {
@@ -26,7 +27,7 @@ const Featured = () => {
                         <div key={feature.id} className="overflow-hidden group relative">
                     <img src={feature.image} className="w-full object-cover h-[60vh] transform transition-transform duration-300 hover:scale-110" alt="" />
                     <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-transparent via-white/30 to-transparent opacity-0 group-hover:opacity-100 group-hover:translate-x-0 translate-x-full transition-all duration-500"></div>
-                    <button className="text-black bg-white px-6 py-2  border-black border-2 bottom-12 left-24 right-24 absolute  lg:font-bold hover:bg-[#047857] hover:border-white hover:text-white uppercase opacity-0 group-hover:opacity-100 group-hover:bottom-12 transition-all duration-1000 ease-in-out">{feature.name}</button>
+                    <Link to={`/featuredItems/${feature.name}`}><button className="text-black bg-white px-6 py-2  border-black border-2 bottom-12 left-24 right-24 absolute  lg:font-bold hover:bg-[#047857] hover:border-white hover:text-white uppercase opacity-0 group-hover:opacity-100 group-hover:bottom-12 transition-all duration-1000 ease-in-out">{feature.name}</button></Link>
                 </div>
                     ))
                 }

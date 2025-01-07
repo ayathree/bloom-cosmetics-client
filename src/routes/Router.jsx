@@ -3,6 +3,7 @@ import Root from "../pages/Root";
 import Home from "../pages/home/Home";
 import Categorize from "../pages/Categorize";
 import DetailsDescription from "../pages/Details/DetailsDescription";
+import FeaturedItems from "../pages/FeaturedItems";
 
 
 export const Router = createBrowserRouter ([
@@ -23,6 +24,12 @@ export const Router = createBrowserRouter ([
                 path:'/detailsDescription/:id',
                 element:<DetailsDescription></DetailsDescription>,
                 loader:({params})=>fetch(`http://localhost:5000/allProductsDetails/${params.id}`)
+            },
+            {
+                path:'/featuredItems/:feature',
+                element:<FeaturedItems></FeaturedItems>,
+                loader:({params})=>fetch(`http://localhost:5000/allProductsFeature/${params.feature}`)
+
             }
         ]
     }
